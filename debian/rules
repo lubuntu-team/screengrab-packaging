@@ -4,6 +4,8 @@
 %:
 	dh $@ --buildsystem=cmake --parallel
 
+override_dh_auto_install:
+	dh_auto_install -- DESTDIR=$(CURDIR)/debian/screengrab
 
 override_dh_install:
 	rm -f debian/screengrab/usr/share/doc/screengrab/LICENSE.txt
