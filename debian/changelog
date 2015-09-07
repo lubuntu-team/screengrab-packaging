@@ -1,5 +1,5 @@
-screengrab (1.95pr1-1) unstable; urgency=low
+screengrab (1.95+20150907-1) unstable; urgency=medium
 
-  * Initial packaging
+  * Initial packaging (Closes: #795791)
 
- -- Alf Gaida <agaida@siduction.org>  Fri, 21 Nov 2014 21:45:06 +0100
+ -- Alf Gaida <agaida@siduction.org>  Mon, 07 Sep 2015 23:00:38 +0200

@@ -25,5 +25,24 @@ Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends}
 Description: Crossplatform tool for getting screenshots
- Screengrab working in Linux and Windows. The program uses Qt and is independent
- of any desktop environment.
+ Screengrab working in Linux and Windows. The program uses Qt and is
+ independent of any desktop environment.
+ Main features:
+  * Get desktop screenshots
+  * Get active window screenshots
+  * Get secreenshots of desktop selection area
+  * Copy screenshot to clipboard
+  * Saving your image files in formats PNG or JPEG or BMP
+  * Ability to set delay in getting screenshots (from 1 to 90 seconds)
+
+Package: screengrab-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: ${misc:Depends},
+         screengrab,
+Description: Crossplatform tool for getting screenshots (debug)
+ Screengrab working in Linux and Windows. The program uses Qt and is
+ independent of any desktop environment.
+ .
+ This package contain the debugging symbols for screengrab.

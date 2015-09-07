@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2009 - 2013 by Artem 'DOOMer' Galichkin                 *
+ *   Copyright (C) 2010 - 2013 by Artem 'DOOMer' Galichkin                 *
  *   doomer3d@gmail.com                                                    *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
@@ -14,64 +14,37 @@
  *                                                                         *
  *   You should have received a copy of the GNU General Public License     *
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
-***************************************************************************/
+ ***************************************************************************/
 
-#include "moduleextedit.h"
+#ifndef X11UTILS_H
+#define X11UTILS_H
 
-#include <QObject>
+#include <QPixmap>
+#include <QScopedPointer>
+#include <QX11Info>
 
-ModuleExtEdit::ModuleExtEdit()
-{
-    _extEdit = new ExtEdit();
+#include <X11/Xlib-xcb.h>
+#include <fixx11h.h>
+#include <xcb/xcb.h>
+
+namespace X11Utils {
+    void compositePointer(int offsetX, int offsetY, QPixmap *snapshot);
 }
 
-ModuleExtEdit::~ModuleExtEdit()
-{
-    if (_extEdit)
+
+namespace Xcb {
+    template <typename T>
+    class ScopedCPointer : public QScopedPointer<T, QScopedPointerPodDeleter>
     {
-        delete _extEdit;
-    }
-}
+    public:
+        ScopedCPointer(T *p = 0) : QScopedPointer<T, QScopedPointerPodDeleter>(p) {}
+    };
 
-QString ModuleExtEdit::moduleName()
-{
-    return QObject::tr("External edit");
-}
-
-
-void ModuleExtEdit::init()
-{
-
-}
-
-QMenu* ModuleExtEdit::initModuleMenu()
-{
-    QMenu *menu = new QMenu(QObject::tr("Edit in..."), 0);
-    QList<XdgAction*> actionsList = _extEdit->getActions();
-
-    foreach (XdgAction *appAction, actionsList)
+    inline xcb_connection_t *connection()
     {
-        menu->addAction(appAction);
-        appAction->disconnect(SIGNAL(triggered()));
-        QObject::connect(appAction, SIGNAL(triggered()), _extEdit, SLOT(runExternalEditor()));
+        return XGetXCBConnection(QX11Info::display());
     }
+} // namespace Xcb
 
-    menu->setObjectName("menuExtedit");
-    return menu;
-}
+#endif // X11UTILS_H
 
-QWidget* ModuleExtEdit::initConfigWidget()
-{
-    return 0;
-}
-
-void ModuleExtEdit::defaultSettings()
-{
-
-}
-
-
-QAction* ModuleExtEdit::initModuleAction()
-{
-    return 0;
-}

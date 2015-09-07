@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2009 - 2013 by Artem 'DOOMer' Galichkin                        *
+ *   Copyright (C) 2009 - 2013 by Artem 'DOOMer' Galichkin                 *
  *   doomer3d@gmail.com                                                    *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
@@ -13,9 +13,7 @@
  *   GNU General Public License for more details.                          *
  *                                                                         *
  *   You should have received a copy of the GNU General Public License     *
- *   along with this program; if not, write to the                         *
- *   Free Software Foundation, Inc.,                                       *
- *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+ *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
  ***************************************************************************/
 
 #ifndef CONFIG_H
@@ -50,7 +48,8 @@ const bool DEF_AUTO_SAVE = false;
 const bool DEF_AUTO_SAVE_FIRST = false;
 const QString DEF_DATETIME_TPL = "yyyy-MM-dd-hh-mm-ss";
 const bool DEF_SHOW_TRAY = true;
-const bool DEF_ENABLE_EXT_VIEWER = 1;
+const bool DEF_ENABLE_EXT_VIEWER = true;
+const bool DEF_INCLUDE_CURSOR = false;
 
 // class worker with conf data
 class Config
@@ -218,6 +217,9 @@ public:
 
     bool getEnableExtView();
     void setEnableExtView(bool val);
+
+    bool getIncludeCursor();
+    void setIncludeCursor(bool val);
 
     static QString getSysLang();
 

@@ -11,7 +11,7 @@ Copyright: 2012-2015 Alf Gaida <agaida@siduction.org>
            2010-2013 Artem Galichkin <doomer3d@gmail.com>
 License: GPL-2.0+
 
-Files: qkeysequencewidget/*
+Files: src/common/qkeysequencewidget/*
 Copyright: 2010 Artem Galichkin <doomer3d@gmail.com>
 License: BSD-3-Clause
 

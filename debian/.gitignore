@@ -1,0 +1,6 @@
+/files
+/*.log
+/*.substvars
+
+/screengrab-dbg/
+/screengrab/

@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2009 - 2013 by Artem 'DOOMer' Galichkin                        *
+ *   Copyright (C) 2009 - 2013 by Artem 'DOOMer' Galichkin                 *
  *   doomer3d@gmail.com                                                    *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
@@ -13,10 +13,8 @@
  *   GNU General Public License for more details.                          *
  *                                                                         *
  *   You should have received a copy of the GNU General Public License     *
- *   along with this program; if not, write to the                         *
- *   Free Software Foundation, Inc.,                                       *
- *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
- ***************************************************************************/
+ *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
+***************************************************************************/
 
 #include <QKeyEvent>
 
@@ -167,8 +165,8 @@ void ConfigDialog::loadSettings()
     _ui->checkAutoSave->setChecked(conf->getAutoSave());;
     _ui->checkAutoSaveFirst->setChecked(conf->getAutoSaveFirst());;
     _ui->checkZommMouseArea->setChecked(conf->getZoomAroundMouse());
+    _ui->cbxIncludeCursor->setChecked(conf->getIncludeCursor());
 
-    // integration tab
     _ui->checkInTray->setChecked(conf->getCloseInTray());
     _ui->checkAllowCopies->setChecked(conf->getAllowMultipleInstance());
 
@@ -261,6 +259,7 @@ void ConfigDialog::saveSettings()
     conf->setAutoSaveFirst(_ui->checkAutoSaveFirst->isChecked());
     conf->setTrayMessages(_ui->cbxTrayMsg->currentIndex());
     conf->setCloseInTray(_ui->checkInTray->isChecked());
+    conf->setIncludeCursor(_ui->cbxIncludeCursor->isChecked());
     conf->setZoomAroundMouse(_ui->checkZommMouseArea->isChecked());
     conf->setAllowMultipleInstance(_ui->checkAllowCopies->isChecked());
     conf->setTimeTrayMess(_ui->timeTrayMess->value());

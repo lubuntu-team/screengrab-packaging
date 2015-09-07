@@ -14,64 +14,33 @@
  *                                                                         *
  *   You should have received a copy of the GNU General Public License     *
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
-***************************************************************************/
+ ***************************************************************************/
 
-#include "moduleextedit.h"
+#ifndef DBUSNOTIFIER_H
+#define DBUSNOTIFIER_H
 
 #include <QObject>
 
-ModuleExtEdit::ModuleExtEdit()
+#include "core.h"
+
+class QDBusInterface;
+
+class DBusNotifier : public QObject
 {
-    _extEdit = new ExtEdit();
-}
+    Q_OBJECT
+public:
+    explicit DBusNotifier(QObject *parent = 0);
+    ~DBusNotifier();
 
-ModuleExtEdit::~ModuleExtEdit()
-{
-    if (_extEdit)
-    {
-        delete _extEdit;
-    }
-}
+    void displayNotify(const StateNotifyMessage& message);
 
-QString ModuleExtEdit::moduleName()
-{
-    return QObject::tr("External edit");
-}
+private:
+    QList<QVariant> prepareNotification(const StateNotifyMessage& message);
 
+    QDBusInterface *_notifier;
+    int _notifyDuration;
+    QString _appIconPath;
+    QString _previewPath;
+};
 
-void ModuleExtEdit::init()
-{
-
-}
-
-QMenu* ModuleExtEdit::initModuleMenu()
-{
-    QMenu *menu = new QMenu(QObject::tr("Edit in..."), 0);
-    QList<XdgAction*> actionsList = _extEdit->getActions();
-
-    foreach (XdgAction *appAction, actionsList)
-    {
-        menu->addAction(appAction);
-        appAction->disconnect(SIGNAL(triggered()));
-        QObject::connect(appAction, SIGNAL(triggered()), _extEdit, SLOT(runExternalEditor()));
-    }
-
-    menu->setObjectName("menuExtedit");
-    return menu;
-}
-
-QWidget* ModuleExtEdit::initConfigWidget()
-{
-    return 0;
-}
-
-void ModuleExtEdit::defaultSettings()
-{
-
-}
-
-
-QAction* ModuleExtEdit::initModuleAction()
-{
-    return 0;
-}
+#endif // DBUSNOTIFIER_H
