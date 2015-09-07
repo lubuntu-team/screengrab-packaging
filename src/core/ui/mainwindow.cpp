@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2009 - 2013 by Artem 'DOOMer' Galichkin                        *
+ *   Copyright (C) 2009 - 2013 by Artem 'DOOMer' Galichkin                 *
  *   doomer3d@gmail.com                                                    *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
@@ -13,10 +13,8 @@
  *   GNU General Public License for more details.                          *
  *                                                                         *
  *   You should have received a copy of the GNU General Public License     *
- *   along with this program; if not, write to the                         *
- *   Free Software Foundation, Inc.,                                       *
- *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
- ***************************************************************************/
+ *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
+***************************************************************************/
 
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
@@ -96,12 +94,18 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent),
     help->setMenu(menuInfo);
 
     _ui->toolBar->addWidget(help);
+
+    QWidget* spacer = new QWidget();
+    spacer->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+        _ui->toolBar->addWidget(spacer);
+
     _ui->toolBar->addAction(actQuit);
 
     void (QSpinBox::*delayChange)(int) = &QSpinBox::valueChanged;
     connect(_ui->delayBox, delayChange, this, &MainWindow::delayBoxChange);
     void (QComboBox::*typeScr)(int) = &QComboBox::currentIndexChanged;
     connect(_ui->cbxTypeScr, typeScr, this, &MainWindow::typeScreenShotChange);
+    connect(_ui->checkIncludeCursor, &QCheckBox::toggled, this, &MainWindow::checkIncludeCursor);
 
     QIcon icon(":/res/img/logo.png");
     setWindowIcon(icon);
@@ -398,11 +402,17 @@ void MainWindow::typeScreenShotChange(int type)
     _conf->setTypeScreen(type);
 }
 
+void MainWindow::checkIncludeCursor(bool include)
+{
+    _conf->setIncludeCursor(include);
+}
+
 // updating UI from configdata
 void MainWindow::updateUI()
 {
     _ui->cbxTypeScr->setCurrentIndex(_conf->getTypeScreen());
     _ui->delayBox->setValue(_conf->getDelay());
+    _ui->checkIncludeCursor->setChecked(_conf->getIncludeCursor());
 
     updateShortcuts();
 

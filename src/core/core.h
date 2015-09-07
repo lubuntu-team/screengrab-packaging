@@ -13,9 +13,7 @@
  *   GNU General Public License for more details.                          *
  *                                                                         *
  *   You should have received a copy of the GNU General Public License     *
- *   along with this program; if not, write to the                         *
- *   Free Software Foundation, Inc.,                                       *
- *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+ *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
  ***************************************************************************/
 #ifndef SCREENGRAB_H
 #define SCREENGRAB_H
@@ -26,7 +24,6 @@
 
 #include "config.h"
 #include "regionselect.h"
-
 #include "modulemanager.h"
 
 #include "ui/mainwindow.h"
@@ -84,7 +81,7 @@ public:
     static QString getVersionPrintable();
 
     QPixmap* getPixmap();
-    QByteArray getScreen();
+    QByteArray getScreenData();
 
     void updatePixmap();
     QString getTempFilename(const QString& format);
@@ -115,9 +112,12 @@ private:
     void checkAutoSave(bool first = false);
 
     void getActiveWindow();
-
+    void grabCursor(int offsetX, int offsetY);
+    void sendSystemNotify(const StateNotifyMessage& notify);
     bool checkExsistFile(QString path);
     QString copyFileNameToCliipboard(QString file);
+    void sendNotify(const StateNotifyMessage& message);
+
     QPixmap *_pixelMap; // pixel map
     RegionSelect *_selector; // region grabber widget
     QRect _lastSelectedArea;

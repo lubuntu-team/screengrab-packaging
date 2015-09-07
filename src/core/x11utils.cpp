@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2009 - 2013 by Artem 'DOOMer' Galichkin                 *
+ *   Copyright (C) 2010 - 2013 by Artem 'DOOMer' Galichkin                 *
  *   doomer3d@gmail.com                                                    *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
@@ -14,64 +14,30 @@
  *                                                                         *
  *   You should have received a copy of the GNU General Public License     *
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
-***************************************************************************/
+ ***************************************************************************/
 
-#include "moduleextedit.h"
+#include "x11utils.h"
 
-#include <QObject>
+#include <xcb/xfixes.h>
 
-ModuleExtEdit::ModuleExtEdit()
+#include <QDebug>
+#include <QPainter>
+
+void X11Utils::compositePointer(int offsetX, int offsetY, QPixmap *snapshot)
 {
-    _extEdit = new ExtEdit();
-}
+    Xcb::ScopedCPointer<xcb_xfixes_get_cursor_image_reply_t> cursor(
+                xcb_xfixes_get_cursor_image_reply(Xcb::connection(),
+                                                  xcb_xfixes_get_cursor_image_unchecked(Xcb::connection()),
+                                                  NULL));
 
-ModuleExtEdit::~ModuleExtEdit()
-{
-    if (_extEdit)
-    {
-        delete _extEdit;
-    }
-}
-
-QString ModuleExtEdit::moduleName()
-{
-    return QObject::tr("External edit");
-}
-
-
-void ModuleExtEdit::init()
-{
-
-}
-
-QMenu* ModuleExtEdit::initModuleMenu()
-{
-    QMenu *menu = new QMenu(QObject::tr("Edit in..."), 0);
-    QList<XdgAction*> actionsList = _extEdit->getActions();
-
-    foreach (XdgAction *appAction, actionsList)
-    {
-        menu->addAction(appAction);
-        appAction->disconnect(SIGNAL(triggered()));
-        QObject::connect(appAction, SIGNAL(triggered()), _extEdit, SLOT(runExternalEditor()));
+    if (cursor.isNull()) {
+        return;
     }
 
-    menu->setObjectName("menuExtedit");
-    return menu;
-}
+    QImage qcursorimg((uchar *) xcb_xfixes_get_cursor_image_cursor_image(cursor.data()),
+                          cursor->width, cursor->height,
+                          QImage::Format_ARGB32_Premultiplied);
 
-QWidget* ModuleExtEdit::initConfigWidget()
-{
-    return 0;
-}
-
-void ModuleExtEdit::defaultSettings()
-{
-
-}
-
-
-QAction* ModuleExtEdit::initModuleAction()
-{
-    return 0;
+    QPainter painter(snapshot);
+    painter.drawImage(QPointF(cursor->x - cursor->xhot - offsetX, cursor->y - cursor ->yhot - offsetY), qcursorimg);
 }
