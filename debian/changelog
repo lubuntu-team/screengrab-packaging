@@ -1,5 +1,23 @@
 screengrab (1.95+20150907-1) unstable; urgency=medium
 
+  [Alf Gaida ]
+  * Changed mail address of czchen
+  * Cherry-picking upstream version 1.95+20150907.
+  * Added .gitignore
+  * Added watch file
+  * Added lintian-overrides
+  * Added debug package
+  * Fixed copyright
+  * Deleted debian/install, use override_dh_auto_install instead
+  * Cleaned source/options
   * Initial packaging (Closes: #795791)
+
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Fix changelog package name in changelog
+  * Reformat control
+  * Remove non upstream file
+
+  [ Andrew Lee (李健秋) ]
+  * Adding upstream version 1.95_pr1.
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 07 Sep 2015 23:00:38 +0200
