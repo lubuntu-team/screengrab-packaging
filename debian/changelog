@@ -1,8 +1,8 @@
-screengrab (1.95+20150907-1) unstable; urgency=medium
+screengrab (1.95+20150929-1) experimental; urgency=medium
 
   [Alf Gaida ]
+  * Cherry-picking upstream version 1.95+20150929.
   * Changed mail address of czchen
-  * Cherry-picking upstream version 1.95+20150907.
   * Added .gitignore
   * Added watch file
   * Added lintian-overrides
@@ -20,4 +20,4 @@ screengrab (1.95+20150907-1) unstable; urgency=medium
   [ Andrew Lee (李健秋) ]
   * Adding upstream version 1.95_pr1.
 
- -- Alf Gaida <agaida@siduction.org>  Mon, 07 Sep 2015 23:00:38 +0200
+ -- Alf Gaida <agaida@siduction.org>  Sun, 01 Nov 2015 23:34:44 +0100
