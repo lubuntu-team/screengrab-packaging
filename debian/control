@@ -15,7 +15,8 @@ Build-Depends: debhelper (>= 9),
                libxcb-xfixes0-dev,
                pkg-config,
                qttools5-dev,
-               qttools5-dev-tools
+               qttools5-dev-tools,
+               x11-utils
 Standards-Version: 3.9.6
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-lxqt/screengrab.git
 Vcs-Git: git://anonscm.debian.org/pkg-lxqt/screengrab.git
