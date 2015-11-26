@@ -1,3 +1,11 @@
+screengrab (1.95+20151117-3) experimental; urgency=medium
+
+  * Build  dependency libxcb-xfixes0-dev leads to FTBFS when not limited
+    to [linux-any] 
+  * Removed build dependency libqxt-dev, it's not used with Qt 5 
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 26 Nov 2015 02:58:26 +0100
+
 screengrab (1.95+20151117-2) experimental; urgency=medium
 
   * Added X11-Utils as build dependency
