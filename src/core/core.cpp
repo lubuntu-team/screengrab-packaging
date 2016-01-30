@@ -240,14 +240,6 @@ void Core::checkAutoSave(bool first)
         else
             autoSave();
     }
-    else
-    {
-        if (!first)
-        {
-            StateNotifyMessage message(tr("New screen"), tr("New screen is getted!"));
-            sendNotify(message);
-        }
-    }
 }
 
 void Core::getActiveWindow()

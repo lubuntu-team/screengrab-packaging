@@ -1,3 +1,14 @@
+screengrab (1.95+20160128-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 1.95+20160128.
+  * Fixed upload to Imgur
+  * Drop debug package
+  * use secure VCS uris
+  * add hardening=+all 
+  * make builds reproducible (Closes: #813167)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 30 Jan 2016 03:19:31 +0100
+
 screengrab (1.95+20151117-4) unstable; urgency=medium
 
   * modify some build dependencies - and remove the limit of
