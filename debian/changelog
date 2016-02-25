@@ -1,3 +1,11 @@
+screengrab (1.95+20160128-2) unstable; urgency=medium
+
+  * make builds reproducible again (Closes: #815899), thanks to Eduard Sanou
+    for the patch, but i fixed this already upstream
+  * Bump Standard to 3.9.7
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 25 Feb 2016 21:03:01 +0100
+
 screengrab (1.95+20160128-1) unstable; urgency=medium
 
   * Cherry-picking upstream version 1.95+20160128.

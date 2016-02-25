@@ -1,0 +1,23 @@
+Description: Make the builds reproducible again
+Author: Alf Gaida <agaida@siduction.org>
+Bug-Debian: https://bugs.debian.org/815899
+
+--- screengrab-1.95+20160128.orig/cmake/LXQtTranslateDesktop.cmake
++++ screengrab-1.95+20160128/cmake/LXQtTranslateDesktop.cmake
+@@ -71,13 +71,13 @@ function(lxqt_translate_desktop _RESULT)
+         set(_pattern "'\\[.*]\\s*='")
+         if (_translations)
+             add_custom_command(OUTPUT ${_outFile}
+-                COMMAND grep -v "'#TRANSLATIONS_DIR='" ${_inFile} > ${_outFile}
+-                COMMAND grep -h ${_pattern} ${_translations} >> ${_outFile}
++                COMMAND grep -v -a "'#TRANSLATIONS_DIR='" ${_inFile} > ${_outFile}
++                COMMAND grep -h -a ${_pattern} ${_translations} >> ${_outFile}
+                 COMMENT "Generating ${_fileName}${_fileExt}"
+             )
+         else()
+             add_custom_command(OUTPUT ${_outFile}
+-                COMMAND grep -v "'#TRANSLATIONS_DIR='" ${_inFile} > ${_outFile}
++                COMMAND grep -v -a "'#TRANSLATIONS_DIR='" ${_inFile} > ${_outFile}
+                 COMMENT "Generating ${_fileName}${_fileExt}"
+             )
+         endif()
