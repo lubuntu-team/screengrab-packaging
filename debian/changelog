@@ -1,3 +1,9 @@
+screengrab (1.95+20160128-3) unstable; urgency=medium
+
+  * Set LC_ALL for reproducible builds.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Mon, 08 Aug 2016 00:20:01 +0800
+
 screengrab (1.95+20160128-2) unstable; urgency=medium
 
   * make builds reproducible again (Closes: #815899), thanks to Eduard Sanou
