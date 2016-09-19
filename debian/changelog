@@ -1,3 +1,16 @@
+screengrab (1.96~38-g975f8ce-1) unstable; urgency=medium
+
+  * Cherry-picked upstream snapshot 1.96~38-g975f8ce
+  * Removed not needed reproducible.patch, merged upstream
+  * Added patch build-date-time.patch 
+  * Added patch disable-uploads.patch, core-cli-upload-option.patch,
+    disable-cli-upload-option.patch (Closes: #834517)
+  * Bumped compat to 10
+  * Bumped dependency debhelper (>= 10)
+  * Bumped Standards to 3.9.8, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 19 Sep 2016 03:56:48 +0200
+
 screengrab (1.95+20160128-3) unstable; urgency=medium
 
   * Set LC_ALL for reproducible builds.

@@ -1,5 +1,6 @@
-diff --git a/src/core/ui/about.cpp b/src/core/ui/about.cpp
-index 33f2b15..6c47467 100644
+Description: Build date time
+Author: Alf Gaida <agaida@siduction.org>
+
 --- a/src/core/ui/about.cpp
 +++ b/src/core/ui/about.cpp
 @@ -31,16 +31,8 @@ AboutDialog::AboutDialog(QWidget *parent):
