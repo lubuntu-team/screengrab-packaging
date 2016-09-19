@@ -1,1 +1,3 @@
-reproducible-builds.patch
+disable-uploads.patch
+build-date-time.patch
+
