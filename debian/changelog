@@ -1,3 +1,13 @@
+screengrab (1.97-1) unstable; urgency=medium
+
+  * Bumped Standards to  4.1.0, no changes needed
+  * Bumped year in copyrights
+  * Added CMAKE_BUILD_TYPE=RelWithDebInfo
+  * added pgpsignmangle to watch file
+  * added upstream signing key to debian
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 26 Sep 2017 21:44:14 +0200
+
 screengrab (1.96-1) unstable; urgency=medium
 
   * Cherry-picked upstream version 1.96.
