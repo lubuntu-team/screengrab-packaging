@@ -1,19 +1,22 @@
 screengrab (1.97-1) unstable; urgency=medium
 
+  * Cherry-picked upstream version 1.97.
   * Bumped Standards to  4.1.0, no changes needed
   * Bumped year in copyrights
   * Added CMAKE_BUILD_TYPE=RelWithDebInfo
-  * added pgpsignmangle to watch file
-  * added upstream signing key to debian
+  * Added pgpsignmangle to watch file
+  * Added upstream signing key to debian
+  * Fixed spelling error in changelog
+  * Closes: #876853 
 
- -- Alf Gaida <agaida@siduction.org>  Tue, 26 Sep 2017 21:44:14 +0200
+ -- Alf Gaida <agaida@siduction.org>  Tue, 26 Sep 2017 22:56:04 +0200
 
 screengrab (1.96-1) unstable; urgency=medium
 
   * Cherry-picked upstream version 1.96.
   * Removed disable-upload.patch, applied upstream
   * Bumped minimum version libqt5xdg-dev (>= 2.0.0) 
-  * Added buid dependency libqt5svg5-dev
+  * Added build dependency libqt5svg5-dev
   * Added build dependency libqt5xdgiconloader-dev
   * Removed --parallel from rules, compat 10 standard
 
