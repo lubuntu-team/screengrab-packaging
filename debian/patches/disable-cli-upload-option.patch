@@ -3,9 +3,9 @@ Author: Alf Gaida <agaida@siduction.org>
 Bug-Debian: https://bugs.debian.org/834517
 Last-Update: 2016-09-19
 
---- screengrab-1.96~38-g975f8ce.orig/src/modules/uploader/moduleuploader.cpp
-+++ screengrab-1.96~38-g975f8ce/src/modules/uploader/moduleuploader.cpp
-@@ -36,11 +36,11 @@ const QString UPLOAD_CMD_PARAM_SHORT = "
+--- a/src/modules/uploader/moduleuploader.cpp
++++ b/src/modules/uploader/moduleuploader.cpp
+@@ -36,11 +36,11 @@
  
  ModuleUploader::ModuleUploader(QObject *parent) :
      QObject(parent), _ignoreCmdParam(false),

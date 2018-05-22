@@ -5,9 +5,9 @@ Last-Update: 2016-09-19
 
 --- a/src/core/core.cpp
 +++ b/src/core/core.cpp
-@@ -511,8 +511,9 @@
+@@ -536,8 +536,9 @@
          if (_cmdLine.isSet(_screenTypeOpts.at(i)))
-             _conf->setScreenshotType(i);
+             _conf->setDefScreenshotType(i);
  
 +/*
  #ifdef SG_EXT_UPLOADS
@@ -16,7 +16,7 @@ Last-Update: 2016-09-19
      const QString UPLOAD_CMD_PARAM = "upload";
      const QString UPLOAD_CMD_PARAM_SHORT = "u";
      QCommandLineOption u(QStringList() << UPLOAD_CMD_PARAM_SHORT << UPLOAD_CMD_PARAM);
-@@ -524,6 +525,9 @@
+@@ -549,6 +550,9 @@
      } else
          initWindow();
  #endif

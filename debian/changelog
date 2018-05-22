@@ -1,3 +1,13 @@
+screengrab (1.98-1) unstable; urgency=medium
+
+  * Cherry-picked upstream version 1.98.
+  * Removed date-time patch, applied upstream
+  * Refreshed the remaining patches
+  * Fixed system-wide configuration (Closes: #893809)
+  * Fixed default file format (Closes: LP1733461)
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 22 May 2018 18:01:45 +0200
+
 screengrab (1.97-3) unstable; urgency=medium
 
   * Bumped compat to 11

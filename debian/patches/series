@@ -1,4 +1,2 @@
-build-date-time.patch
-
 disable-cli-upload-option.patch
 core-cli-upload-option.patch
