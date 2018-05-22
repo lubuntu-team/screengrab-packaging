@@ -3,9 +3,9 @@ cmake_minimum_required(VERSION 3.0.2 FATAL_ERROR)
 # set project's name
 project(screengrab)
 
-find_package(Qt5Widgets 5.2.0 REQUIRED)
-find_package(Qt5X11Extras 5.2.0 REQUIRED)
-find_package(Qt5Network 5.2.0 REQUIRED)
+find_package(Qt5Widgets 5.7.1 REQUIRED)
+find_package(Qt5X11Extras 5.7.1 REQUIRED)
+find_package(Qt5Network 5.7.1 REQUIRED)
 find_package(KF5WindowSystem REQUIRED)
 
 # for translations
@@ -39,7 +39,7 @@ find_package(
 )
 
 # add version define
-set(SCREENGRAB_VERSION "1.97")
+set(SCREENGRAB_VERSION "1.98")
 set(SCREENGRAB_VERSION_DEV "2.0-beta1")
 # set(DEV_BUILD True)
 
@@ -64,7 +64,10 @@ elseif(NOT SCREENGRAB_VERSION_DEV)
     set(VERSION "${SCREENGRAB_VERSION}")
 endif(SCREENGRAB_VERSION_DEV)
 
-add_definitions(-DVERSION="${VERSION}")
+add_definitions(
+    -DVERSION="${VERSION}"
+    -DQT_NO_FOREACH
+)
 
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
@@ -182,6 +185,10 @@ qt5_add_resources(QRC_SOURCES ${SCREENGRAB_QRC})
 
 message(STATUS "Generating localize ...")
 
+set(SCREENGRAB_CONFIG_FILES
+    screengrab.conf
+)
+
 set(SCREENGRAB_DESKTOP_FILES_IN
     screengrab.desktop.in
 )
@@ -256,31 +263,12 @@ endif()
 
 target_link_libraries(screengrab qkeysequencewidget Qt5::Widgets KF5::WindowSystem ${X11_LIBRARIES})
 
-# make src.tar.gz
-add_custom_target(dist @echo create source package)
-set(SCREENGRAB_DIST "screengrab-${SCREENGRAB_VERSION}")
-add_custom_command(COMMAND cp
-    ARGS -R ${CMAKE_CURRENT_SOURCE_DIR} "/tmp/${SCREENGRAB_DIST}"
-    WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
-    TARGET dist
-)
-
-add_custom_command(COMMAND tar
-    ARGS cvfz "${CMAKE_CURRENT_BINARY_DIR}/${SCREENGRAB_DIST}.tar.gz" --exclude=*~ --exclude-vcs --exclude=localize/*qm --exclude=*.kdev4 --exclude=build --exclude=create-src.sh --exclude=win32 -C "/tmp" "${SCREENGRAB_DIST}"
-    WORKING_DIRECTORY "/tmp"
-    TARGET dist
-)
-
-add_custom_command(COMMAND rm
-    ARGS -rf "/tmp/${SCREENGRAB_DIST}"
-    WORKING_DIRECTORY "/tmp"
-    TARGET dist
-)
-
 # installing
 install(TARGETS screengrab RUNTIME DESTINATION bin)
 # install html docs
 install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/docs/html" DESTINATION "${CMAKE_INSTALL_FULL_DOCDIR}")
+# install config files
+install(FILES ${SCREENGRAB_CONFIG_FILES} DESTINATION ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME})
 # install desktop files
 install(FILES ${SCREENGRAB_DESKTOP_FILES} DESTINATION ${CMAKE_INSTALL_DATADIR}/applications)
 # install pixmap
