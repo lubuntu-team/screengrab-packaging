@@ -1,3 +1,14 @@
+screengrab (1.99-1) unstable; urgency=medium
+
+  * Cherry-picked upstream version 1.99.
+  * Picked fix-reading-config.patch from upstream
+    Big thanks to Helge Kreutzmann <debian@helgefjell.de> and
+    Bernhard Übelacker <bernhardu@mailbox.org>
+    (Closes: #905967)
+  * Bumped Standards to 4.2.0, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 18 Aug 2018 15:26:53 +0200
+
 screengrab (1.98-1) unstable; urgency=medium
 
   * Cherry-picked upstream version 1.98.

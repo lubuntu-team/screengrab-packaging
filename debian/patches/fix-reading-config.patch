@@ -1,0 +1,43 @@
+From bfea1228e3663f1ce7de191222bca7dc54c0c6c8 Mon Sep 17 00:00:00 2001
+From: Tsu Jan <tsujan2000@gmail.com>
+Date: Sat, 18 Aug 2018 10:31:32 +0430
+Subject: [PATCH] Don't crash with invalid config format
+
+Fixes https://github.com/lxqt/screengrab/issues/104
+---
+ src/core/config.cpp        | 2 +-
+ src/core/ui/mainwindow.cpp | 4 ++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/src/core/config.cpp b/src/core/config.cpp
+index 9795d83..9b4bd31 100644
+--- a/src/core/config.cpp
++++ b/src/core/config.cpp
+@@ -247,7 +247,7 @@ void Config::setSaveFileName(QString fileName)
+ 
+ QString Config::getSaveFormat()
+ {
+-    return value(KEY_SAVEFORMAT).toString();
++    return value(KEY_SAVEFORMAT).toString().toLower();
+ }
+ 
+ void Config::setSaveFormat(QString format)
+diff --git a/src/core/ui/mainwindow.cpp b/src/core/ui/mainwindow.cpp
+index e6cbd4e..9bbffe7 100644
+--- a/src/core/ui/mainwindow.cpp
++++ b/src/core/ui/mainwindow.cpp
+@@ -565,11 +565,11 @@ void MainWindow::saveScreen()
+     // create initial filepath
+     QHash<QString, QString> formatsAvalible;
+     const QStringList formatIDs = _conf->getFormatIDs();
++    if (formatIDs.isEmpty()) return;
+     for (const QString &formatID : formatIDs)
+         formatsAvalible[formatID] = tr("%1 Files").arg(formatID.toUpper());
+ 
+-    QString format = formatIDs.at(_conf->getDefaultFormatID());
+-    _conf->getSaveFormat();
++    QString format = formatIDs.at(qBound(0, _conf->getDefaultFormatID(), formatIDs.size() - 1));
+ 
+     Core* c = Core::instance();
+     QString filePath = c->getSaveFilePath(format);
+
