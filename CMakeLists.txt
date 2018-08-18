@@ -1,31 +1,36 @@
-cmake_minimum_required(VERSION 3.0.2 FATAL_ERROR)
-
-# set project's name
+cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
+# CMP0000: Call the cmake_minimum_required() command at the beginning of the top-level
+# CMakeLists.txt file even before calling the project() command.
+# The cmake_minimum_required(VERSION) command implicitly invokes the cmake_policy(VERSION)
+# command to specify that the current project code is written for the given range of CMake
+# versions.
 project(screengrab)
-
-find_package(Qt5Widgets 5.7.1 REQUIRED)
-find_package(Qt5X11Extras 5.7.1 REQUIRED)
-find_package(Qt5Network 5.7.1 REQUIRED)
-find_package(KF5WindowSystem REQUIRED)
-
-# for translations
-find_package(Qt5LinguistTools REQUIRED)
-
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
-
-# long live cmake + qt :)
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTOUIC ON)
 
 include(GNUInstallDirs)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+
+# options
+option(SG_DBUS_NOTIFY "Enable D-Bus notifications" ON)
+option(SG_EXT_EDIT "Enable ability to edit screenshots in external editor" ON)
+option(SG_EXT_UPLOADS "Enable upload screenshots to Imgur" ON)
+option(SG_GLOBALSHORTCUTS "Enable global shortcuts" OFF)
+option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
+
+# Minimum Versions
+set(KF5_MINIMUM_VERSION "5.36.0")
+set(QT_MINIMUM_VERSION "5.7.1")
+set(QTXDG_MINIMUM_VERSION "3.3.0")
+
+find_package(Qt5LinguistTools  ${QT_MINIMUM_VERSION} REQUIRED)
+find_package(Qt5Network ${QT_MINIMUM_VERSION} REQUIRED)
+find_package(Qt5Widgets ${QT_MINIMUM_VERSION} REQUIRED)
+find_package(Qt5X11Extras ${QT_MINIMUM_VERSION} REQUIRED)
+find_package(KF5WindowSystem ${KF5_MINIMUM_VERSION} REQUIRED)
 
 find_package(X11)
 if (X11_FOUND)
     set(HAVE_X11 1)
 endif(X11_FOUND)
-
-# set up xcb and x11_xcb
 
 find_package(
     XCB MODULE COMPONENTS
@@ -33,36 +38,21 @@ find_package(
         SHAPE
         XFIXES
 )
-
 find_package(
     X11_XCB MODULE
 )
 
-# add version define
-set(SCREENGRAB_VERSION "1.98")
-set(SCREENGRAB_VERSION_DEV "2.0-beta1")
-# set(DEV_BUILD True)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-if(SCREENGRAB_VERSION_DEV)
-    if(DEV_BUILD)
-        # search git executable
-        find_package(Git)
-        if(GIT_FOUND)
-        # executable git for check HEAD rev hash
-        execute_process(
-            COMMAND ${GIT_EXECUTABLE} rev-parse --short HEAD
-            OUTPUT_VARIABLE GIT_HASH
-            OUTPUT_STRIP_TRAILING_WHITESPACE
-        )
-        endif()
+set(SCREENGRAB_VERSION "1.100")
 
-        set(VERSION "${SCREENGRAB_VERSION}  (${SCREENGRAB_VERSION_DEV}-git-${GIT_HASH})")
-    else()
-        set(VERSION "${SCREENGRAB_VERSION}  (${SCREENGRAB_VERSION_DEV})")
-    endif()
-elseif(NOT SCREENGRAB_VERSION_DEV)
-    set(VERSION "${SCREENGRAB_VERSION}")
-endif(SCREENGRAB_VERSION_DEV)
+if (DEV_VERSION)
+    set(VERSION "${SCREENGRAB_VERSION}-dev (${DEV_VERSION})")
+else()
+    set(VERSION ${SCREENGRAB_VERSION})
+endif()
 
 add_definitions(
     -DVERSION="${VERSION}"
@@ -81,13 +71,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wnon-virtual-dtor -Woverloaded-virtual 
 set(SG_LIBDIR "${CMAKE_INSTALL_LIBDIR}/screengrab")
 set(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/${SG_LIBDIR}")
 message(STATUS "Library path: ${CMAKE_INSTALL_RPATH}")
-
-# options
-option(SG_GLOBALSHORTCUTS "Enable global shortcuts" OFF)
-option(SG_EXT_UPLOADS "Enable upload screenshots to Imgur" ON)
-option(SG_EXT_EDIT "Enable ability to edit screenshots in external editor" ON)
-option(SG_DBUS_NOTIFY "Enable D-Bus notifications" ON)
-option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
 
 # Although the names, LXQtTranslateTs and LXQtTranslateDesktop, they don't
 #   bring any dependency on lxqt.
@@ -111,11 +94,11 @@ endif()
 
 if(SG_EXT_EDIT)
     add_definitions( -DSG_EXT_EDIT="1")
-    find_package(Qt5Xdg REQUIRED)
+    find_package(Qt5Xdg ${QTXDG_MINIMUM_VERSION} REQUIRED)
 endif()
 
 if(SG_DBUS_NOTIFY)
-    find_package(Qt5DBus 5.2 REQUIRED)
+    find_package(Qt5DBus ${QT_MINIMUM_VERSION} REQUIRED)
     add_definitions( -DSG_DBUS_NOTIFY="1")
 endif()
 
@@ -261,7 +244,8 @@ if (XCB_XFIXES_FOUND)
     target_link_libraries(screengrab ${XCB_XFIXES_LIBRARY})
 endif()
 
-target_link_libraries(screengrab qkeysequencewidget Qt5::Widgets KF5::WindowSystem ${X11_LIBRARIES})
+# Link with Network and X11Extras. See pull#86. TODO: Should be optional when upload module is needed.
+target_link_libraries(screengrab qkeysequencewidget Qt5::Widgets KF5::WindowSystem Qt5::X11Extras Qt5::Network ${X11_LIBRARIES})
 
 # installing
 install(TARGETS screengrab RUNTIME DESTINATION bin)

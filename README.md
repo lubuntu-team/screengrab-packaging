@@ -7,7 +7,7 @@ ScreenGrab - A program for fast creating screenshots, and easily publishing them
 ### Build requirements
 
  * Qt5 >= 5.2 (Qt 4.x support only 1.x branch)
- * CMake >= 2.8.11 (only for building ScreenGrab from sources)
+ * CMake >= 3.1.0 (only for building ScreenGrab from sources)
  * GCC > 4.5
  * KF5WindowSystem
  * [optional] Qxt Library > 0.6 (if you want to build ScreenGrab using your system Qxt version - see the "Build options" section in this file)
@@ -34,7 +34,8 @@ You can use some or all of these parameters to customise your build.
  * **-DSG_USE_SYSTEM_QXT** - Use system version Qxt Library for global shortcuts. Default setting: OFF.
  * **-DSG_DOCDIR** - Name for the directory of user's documentation. Default setting:  "screengrab".
  * **-DQKSW_SHARED** - Enable shared linking with qkeysequencewidget library (in src/common/qksysekwesewidget). Default setting: OFF.
- 
+ * **-DDEV_VERSION** - Set a dev-version here, maybe git describe $foo. Default not set.
+
 #### Build notes
 
 For Debian based Linux distributions please use the distribution build tools. One can get the source-code with
@@ -60,3 +61,9 @@ Bug Tracker: https://github.com/lxqt/screengrab/issues
 (c) 2014-2018, LXQt Team  
 (c) 2009-2013, Artem 'DOOMer' Galichkin
 
+
+### Translation (Weblate)
+
+<a href="https://weblate.lxqt.org/projects/lxqt/screengrab/">
+<img src="https://weblate.lxqt.org/widgets/lxqt/-/screengrab/multi-auto.svg" alt="Translation status" />
+</a>

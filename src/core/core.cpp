@@ -46,7 +46,7 @@
 #include "modules/uploader/moduleuploader.h"
 #endif
 
-Core* Core::corePtr = 0;
+Core* Core::corePtr = nullptr;
 
 Core::Core()
 {
@@ -57,7 +57,7 @@ Core::Core()
     _lastSelectedArea = _conf->getLastSelection();
 
     _pixelMap = new QPixmap;
-    _selector = 0;
+    _selector = nullptr;
     _firstScreen = true;
 
     _cmdLine.setApplicationDescription("ScreenGrab " + tr("is a crossplatform application for fast creating screenshots of your desktop."));
@@ -81,7 +81,7 @@ Core::Core()
 
     sleep(250);
 
-    _wnd = NULL;
+    _wnd = nullptr;
 }
 
 Core::Core(const Core& ): QObject()
@@ -148,17 +148,16 @@ void Core::coreQuit()
     _conf->setLastSelection(_lastSelectedArea);
     _conf->saveScreenshotSettings();
 
-    _conf->setRestoredWndSize(_wnd->width(), _wnd->height());
-    _conf->saveWndSize();
-
     if (_wnd) {
+        _conf->setRestoredWndSize(_wnd->width(), _wnd->height());
+        _conf->saveWndSize();
         _wnd->close();
     }
 
     if (corePtr)
     {
         delete corePtr;
-        corePtr = NULL;
+        corePtr = nullptr;
     }
 
     qApp->quit();
@@ -318,7 +317,7 @@ void Core::sendSystemNotify(const StateNotifyMessage& /*notify*/)
     qDebug() << "Send system notification";
 }
 
-QString Core::getSaveFilePath(QString format)
+QString Core::getSaveFilePath(const QString &format)
 {
     QString initPath;
 
@@ -340,7 +339,7 @@ QString Core::getSaveFilePath(QString format)
     return initPath;
 }
 
-bool Core::checkExsistFile(QString path)
+bool Core::checkExsistFile(const QString &path)
 {
     bool exist = QFile::exists(path);
 

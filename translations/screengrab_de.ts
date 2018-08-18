@@ -6,7 +6,7 @@
     <message>
         <location filename="../src/core/ui/about.cpp" line="34"/>
         <source>using Qt </source>
-        <translation>mit Qt</translation>
+        <translation>mit Qt </translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="41"/>
@@ -31,7 +31,7 @@
     <message>
         <location filename="../src/core/ui/about.cpp" line="109"/>
         <source>Licensed under the </source>
-        <translation>Lizensiert unter</translation>
+        <translation>Lizensiert unter der </translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="43"/>
@@ -111,7 +111,7 @@
     <message>
         <location filename="../src/core/ui/about.cpp" line="150"/>
         <source>Burjans L García D</source>
-        <translation type="unfinished"></translation>
+        <translation>Burjans L García D</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="152"/>
@@ -152,48 +152,48 @@
 <context>
     <name>ConfigDialog</name>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="301"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="300"/>
         <source>Select directory</source>
         <translation>Ordner wählen</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="212"/>
-        <location filename="../src/core/ui/configwidget.cpp" line="313"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="211"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="312"/>
         <source>Warning</source>
         <translation>Warnung</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="211"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="210"/>
         <source>Directory %1 does not exist. Do you want to create it?</source>
         <translation>Der Ordner %1 existiert nicht. Möchten Sie ihn erstellen?</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="312"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="311"/>
         <source>Do you want to reset the settings to the defaults?</source>
         <translation>Möchten Sie die Standardeinstellungen wieder herstellen?</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="370"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="369"/>
         <source>Example: </source>
-        <translation>Beispiel:</translation>
+        <translation>Beispiel: </translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="426"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="425"/>
         <source>This key is already used in your system! Please select another.</source>
         <translation>Diese Tastenkombination ist bereits von Ihrem System belegt! Bitte wählen Sie eine andere.</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="432"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="431"/>
         <source>This key is already used in ScreenGrab! Please select another.</source>
         <translation>Diese Tastenkombination wird bereits von ScreenGrab verwendet! Bitte wählen Sie eine andere.</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="450"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="449"/>
         <source>This key is not supported on your system!</source>
         <translation>Diese Tastenkombination wird von Ihrem System nicht unterstützt!</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="485"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="484"/>
         <source>Error</source>
         <translation>Fehler</translation>
     </message>
@@ -201,22 +201,22 @@
 <context>
     <name>Core</name>
     <message>
-        <location filename="../src/core/core.cpp" line="421"/>
+        <location filename="../src/core/core.cpp" line="422"/>
         <source>Saved</source>
         <translation>Gespeichert</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="443"/>
+        <location filename="../src/core/core.cpp" line="444"/>
         <source>Name of saved file is copied to the clipboard</source>
         <translation>Der Name der gespeicherten Datei wird in die Zwischenablage kopiert</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="471"/>
+        <location filename="../src/core/core.cpp" line="472"/>
         <source>Copied</source>
         <translation>Kopiert</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="421"/>
+        <location filename="../src/core/core.cpp" line="422"/>
         <source>Saved to </source>
         <translation>Gespeichert nach </translation>
     </message>
@@ -228,7 +228,7 @@
     <message>
         <location filename="../src/core/core.cpp" line="67"/>
         <source>Take a fullscreen screenshot</source>
-        <translation type="unfinished"></translation>
+        <translation>Mache einen Screenshot des gesamten Bildschirms</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="71"/>
@@ -238,20 +238,20 @@
     <message>
         <location filename="../src/core/core.cpp" line="75"/>
         <source>Take a screenshot of a selection of the screen</source>
-        <translation type="unfinished">Mache einen Screenshot von einem Ausschnitt des Bildschirms</translation>
+        <translation>Mache einen Screenshot eines Bildschirmausschnitts</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="79"/>
         <source>Run the application with a hidden main window</source>
-        <translation type="unfinished"></translation>
+        <translation>Führe die Anwendung in verborgenem Hauptfenster aus</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="449"/>
+        <location filename="../src/core/core.cpp" line="450"/>
         <source>Path to saved file is copied to the clipboard</source>
         <translation>Der Pfad zur gespeicherten Datei wird in die Zwischenablage kopiert</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="471"/>
+        <location filename="../src/core/core.cpp" line="472"/>
         <source>Screenshot is copied to clipboard</source>
         <translation>Das Bildschirmfoto wird in die Zwischenablage kopiert</translation>
     </message>
@@ -318,8 +318,8 @@
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="201"/>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="216"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="199"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="214"/>
         <source>Close</source>
         <translation>Schließen</translation>
     </message>
@@ -336,46 +336,46 @@
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="68"/>
         <source>Uploaded </source>
-        <translation>Hochgeladen</translation>
+        <translation>Hochgeladen </translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="71"/>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="214"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="212"/>
         <source>Ready to upload</source>
         <translation>Bereit zum Hochladen</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="109"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="108"/>
         <source>Upload processing... Please wait</source>
         <translation>Das Hochladen wird bearbeitet...bitte warten</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="246"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="244"/>
         <source>Open this link in your default web-browser, it may directly delete your uploaded image, without any warnings.</source>
         <translation>Öffnen Sie diesen Link in Ihrem Standard-Web-Browser, so kann Ihr hochgeladenes Bild ohne jede Warnung gelöscht werden.</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="162"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="160"/>
         <source>Receiving a response from the server</source>
         <translation>Antwort vom Server erhalten</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="179"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="177"/>
         <source>Upload completed</source>
         <translation>Hochladen abgeschlossen</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="208"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="206"/>
         <source>Error uploading screenshot</source>
         <translation>Beim Hochladen ist ein Fehler aufgetreten</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="209"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="207"/>
         <source>Error</source>
         <translation>Fehler</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="247"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="245"/>
         <source>Are you sure you want to continue?</source>
         <translation>Möchten Sie wirklich fortfahren?</translation>
     </message>
@@ -440,7 +440,7 @@
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="246"/>
         <source>toolBar</source>
-        <translation type="unfinished"></translation>
+        <translation>Werkzeugleiste</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="154"/>
@@ -484,18 +484,18 @@
         <translation>Kopieren</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="359"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="369"/>
         <source>Double click to open screenshot in external default image viewer</source>
         <translation>Doppelklicken, um das Bildschirmfoto in einem externen Bildbetrachter zu öffnen</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="368"/>
-        <location filename="../src/core/ui/mainwindow.cpp" line="499"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="378"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="509"/>
         <source>Hide</source>
         <translation>Verbergen</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="558"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="569"/>
         <source>%1 Files</source>
         <translation>%1 Dateien</translation>
     </message>
@@ -505,7 +505,7 @@
         <translation>Über</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="355"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="365"/>
         <source>Screenshot </source>
         <translation>Bildschirmfoto </translation>
     </message>
@@ -515,12 +515,12 @@
         <translation>Keine</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="506"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="516"/>
         <source>Show</source>
         <translation>Anzeigen</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="581"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="591"/>
         <source>Save As...</source>
         <translation>Speichern als...</translation>
     </message>
@@ -530,7 +530,7 @@
     <message>
         <location filename="../src/modules/uploader/moduleuploader.cpp" line="41"/>
         <source>Upload the screenshot to the default image host</source>
-        <translation type="unfinished"></translation>
+        <translation>Screenshot zum standardmäßigen Image-Host hochladen</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/moduleuploader.cpp" line="48"/>
@@ -556,12 +556,12 @@ indem Sie die &lt;Esc&gt;-Taste oder die mittlere Maustaste drücken.</translati
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/modules/extedit/moduleextedit.cpp" line="38"/>
+        <location filename="../src/modules/extedit/moduleextedit.cpp" line="35"/>
         <source>External edit</source>
         <translation>Externer Editor</translation>
     </message>
     <message>
-        <location filename="../src/modules/extedit/moduleextedit.cpp" line="49"/>
+        <location filename="../src/modules/extedit/moduleextedit.cpp" line="46"/>
         <source>Edit in...</source>
         <translation>Bearbeiten in...</translation>
     </message>
@@ -650,7 +650,7 @@ indem Sie die &lt;Esc&gt;-Taste oder die mittlere Maustaste drücken.</translati
     <message>
         <location filename="../src/modules/uploader/imgur/uploader_imgur_widget.ui" line="20"/>
         <source>Upload to Imgur</source>
-        <translation type="unfinished"></translation>
+        <translation>Hochladen auf Imgur</translation>
     </message>
 </context>
 <context>
@@ -722,12 +722,12 @@ indem Sie die &lt;Esc&gt;-Taste oder die mittlere Maustaste drücken.</translati
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="407"/>
         <source>Fit to edges only inside selected screen area</source>
-        <translation type="unfinished"></translation>
+        <translation>Nur an Rändern innerhalb des ausgwählten Bildschirmbereichs anpassen</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="410"/>
         <source>Fit to edges inside selected area</source>
-        <translation type="unfinished"></translation>
+        <translation>An Rändern innerhalb des ausgewählten Bildschirmbereichs anpassen</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="448"/>
@@ -753,11 +753,6 @@ indem Sie die &lt;Esc&gt;-Taste oder die mittlere Maustaste drücken.</translati
         <location filename="../src/core/ui/configwidget.ui" line="585"/>
         <source>Global shortcuts</source>
         <translation>Globale Tastenkombinationen</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="592"/>
-        <source>Fill screen</source>
-        <translation>Bildschirmfoto ausfüllen</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="597"/>
@@ -867,17 +862,17 @@ indem Sie die &lt;Esc&gt;-Taste oder die mittlere Maustaste drücken.</translati
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="116"/>
         <source>Default save directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardmäßiges Speicherverzeichnis</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="148"/>
         <source>Default file</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardmäßige Datei</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="161"/>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Name:</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="328"/>
@@ -887,7 +882,7 @@ indem Sie die &lt;Esc&gt;-Taste oder die mittlere Maustaste drücken.</translati
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="353"/>
         <source>Example: </source>
-        <translation>Beispiel:</translation>
+        <translation>Beispiel: </translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="363"/>
@@ -947,7 +942,12 @@ indem Sie die &lt;Esc&gt;-Taste oder die mittlere Maustaste drücken.</translati
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="580"/>
         <source>Shortcut</source>
-        <translation>Tastenkombination</translation>
+        <translation>Tastenkürzel</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="592"/>
+        <source>Full screen</source>
+        <translation type="unfinished">Vollbild</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="637"/>

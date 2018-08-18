@@ -35,8 +35,8 @@ DialogUploader::DialogUploader(QWidget *parent) :
 {
     _ui->setupUi(this);
     _ui->stackedWidget->setCurrentIndex(0);
-    _uploader = 0;
-    _uploaderWidget = 0;
+    _uploader = nullptr;
+    _uploaderWidget = nullptr;
     slotSeletHost(0);
 
     _ui->cbxUploaderList->addItems(UploaderConfig::labelsList());
@@ -83,8 +83,7 @@ DialogUploader::~DialogUploader()
 {
     qDebug() << "delete dialog upload";
 
-    if (_uploader)
-        delete _uploader;
+    delete _uploader;
     delete _uploaderWidget;
     delete _ui;
 }
@@ -137,8 +136,7 @@ void DialogUploader::slotSeletHost(int type)
 {
     _selectedHost = type;
 
-    if (_uploaderWidget)
-        delete _uploaderWidget;
+    delete _uploaderWidget;
 
     switch(_selectedHost)
     {

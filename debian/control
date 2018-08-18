@@ -5,13 +5,13 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>
 Section: graphics
 Priority: optional
-Build-Depends: debhelper (>= 11~),
+Build-Depends: debhelper-compat (= 12),
                cmake,
                libkf5windowsystem-dev,
                libqt5svg5-dev,
                libqt5x11extras5-dev,
-               libqt5xdg-dev (>= 2.0.0~),
-               libqt5xdgiconloader-dev (>= 2.0.0~) ,
+               libqt5xdg-dev (>= 3.3.0~),
+               libqt5xdgiconloader-dev (>= 3.3.0~) ,
                libx11-dev,
                libx11-xcb-dev,
                libxcb1-dev,
@@ -19,7 +19,7 @@ Build-Depends: debhelper (>= 11~),
                pkg-config,
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 4.1.4
+Standards-Version: 4.3.0
 Vcs-Browser: https://salsa.debian.org/lxqt-team/screengrab
 Vcs-Git: https://salsa.debian.org/lxqt-team/screengrab.git
 Homepage: https://github.com/lxqt/screengrab

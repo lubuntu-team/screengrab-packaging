@@ -86,7 +86,7 @@ ConfigDialog::ConfigDialog(QWidget *parent) :
     QTreeWidgetItemIterator iter(_ui->treeKeys);
     while (*iter)
     {
-        if ((*iter)->parent() != NULL)
+        if ((*iter)->parent() != nullptr)
         {
             (*iter)->setData(1, Qt::DisplayRole, conf->shortcuts()->getShortcut(action));
 
@@ -119,7 +119,7 @@ ConfigDialog::ConfigDialog(QWidget *parent) :
     {
         AbstractModule* currentModule = Core::instance()->modules()->getModule(i);
 
-        if (currentModule->initConfigWidget() != 0)
+        if (currentModule->initConfigWidget() != nullptr)
         {
             _ui->listWidget->addItem(currentModule->moduleName());
             QWidget *currentModWidget = currentModule->initConfigWidget();
@@ -132,9 +132,8 @@ ConfigDialog::ConfigDialog(QWidget *parent) :
 ConfigDialog::~ConfigDialog()
 {
     delete _ui;
-    conf = NULL;
+    conf = nullptr;
     delete conf;
-
 }
 
 void ConfigDialog::loadSettings()
@@ -364,9 +363,9 @@ void ConfigDialog::setVisibleDateTplEdit(bool checked)
     }
 }
 
-void ConfigDialog::editDateTmeTpl(QString str)
+void ConfigDialog::editDateTmeTpl(const QString &str)
 {
-    QString currentDateTime = QDateTime::currentDateTime().toString(str );
+    QString currentDateTime = QDateTime::currentDateTime().toString(str);
     _ui->labMaskExample->setText(tr("Example: ") + currentDateTime);
 }
 
@@ -428,7 +427,7 @@ void ConfigDialog::acceptShortcut(const QKeySequence& seq)
     changeShortcut(seq);
 #endif
     }
-    else if (checkUsedShortcuts() && seq.toString() != "")
+    else if (checkUsedShortcuts() && !seq.toString().isEmpty())
         showErrorMessage(tr("This key is already used in ScreenGrab! Please select another."));
 }
 
@@ -478,7 +477,7 @@ bool ConfigDialog::avalibelGlobalShortcuts(const QKeySequence& seq)
 }
 #endif
 
-void ConfigDialog::showErrorMessage(QString text)
+void ConfigDialog::showErrorMessage(const QString &text)
 {
     _ui->keyWidget->clearKeySequence();
     QMessageBox msg;

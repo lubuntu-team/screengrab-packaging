@@ -1,152 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr_FR">
+<TS version="2.1" language="he">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../src/core/ui/about.cpp" line="34"/>
         <source>using Qt </source>
-        <translation>en utilisant Qt</translation>
+        <translation>בעזרת Qt </translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="41"/>
         <source>About</source>
-        <translation>À propos</translation>
+        <translation>על אודות</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="42"/>
         <source>Thanks</source>
-        <translation>Remerciements</translation>
+        <translation>תודות</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="43"/>
         <source>Help us</source>
-        <translation>Aidez nous</translation>
+        <translation>לסייע לנו</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="100"/>
         <source>is a crossplatform application for fast creating screenshots of your desktop.</source>
-        <translation>est une application multi-plateforme pour créer des captures d&apos;écran de votre bureau.</translation>
+        <translation>הוא יישום ליצירת צילומי מסך של שולחן העבודה שלך.</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="102"/>
         <source>It is a light and powerful application, written in Qt.</source>
-        <translation>Application légère et puissante écrite en Qt.</translation>
+        <translation>מדובר ביישום קטן ועצמתי, שנכתב ב־Qt.</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="105"/>
         <source>Website</source>
-        <translation>Site Web</translation>
+        <translation>אתר</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="109"/>
         <source>Licensed under the </source>
-        <translation>Sous licence </translation>
+        <translation>מוגש בכפוף לרישיון </translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="113"/>
         <source>Copyright &amp;copy; 2009-2013, Artem &apos;DOOMer&apos; Galichkin</source>
-        <translation>Copyright &amp;copy; 2009-2013, Artem &apos;DOOMer&apos; Galichkin</translation>
+        <translation>כל הזכויות שמורות &amp;copy; 2009‏-2013, ארטיום ‚DOOMer’ גליצ׳קין</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="120"/>
         <source>You can join us and help us if you want. This is an invitation if you like this application.</source>
-        <translation>Vous pouvez nous rejoindre et nous aider si vous appréciez cette application.</translation>
+        <translation>ניתן להצטרף ולסייע לנו אם מתחשק לך. זו הזמנה לכל חובבי היישום.</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="123"/>
         <source>What you can do?</source>
-        <translation>Que pouvez vous faire ?</translation>
+        <translation>במה ניתן לסייע?</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="126"/>
         <source>Translate ScreenGrab to other languages</source>
-        <translation>Traduire ScreenGrab dans d&apos;autres langues</translation>
+        <translation>לתרגם את ScreenGrab לשפות נוספות</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="127"/>
         <source>Make suggestions for next releases</source>
-        <translation>Faire des suggestions pour les prochaines versions</translation>
+        <translation>להציע הצעות לגרסאות הבאות</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="128"/>
         <source>Report bugs and issues</source>
-        <translation>Rapporter les bugs</translation>
+        <translation>לדווח על תקלות</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="131"/>
         <source>Bug tracker</source>
-        <translation></translation>
+        <translation>עוקב תקלות</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="141"/>
         <source>Translate:</source>
-        <translation>Traductions:</translation>
+        <translation>תרגום:</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="143"/>
         <source> Brazilian Portuguese translation</source>
-        <translation> Brésilien - Portuguais</translation>
+        <translation> תרגום לפורטוגלית ברזילאית</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="144"/>
         <source>Marcio Moraes</source>
-        <translation></translation>
+        <translation>מרצ׳ו מוראס</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="146"/>
         <source> Ukrainian translation</source>
-        <translation>Ukrainien</translation>
+        <translation> תרגום לאוקראינית</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="147"/>
         <source>Gennadi Motsyo</source>
-        <translation>Gennadi Motsyo</translation>
+        <translation>גנאדי מוציו</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="149"/>
         <source> Spanish translation</source>
-        <translation>Espagnol</translation>
+        <translation> תרגום לספרדית</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="150"/>
         <source>Burjans L García D</source>
-        <translation>Burjans L García D</translation>
+        <translation>בורשאנס ל גרסיה ד</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="152"/>
         <source> Italian translation</source>
-        <translation>Italien</translation>
+        <translation> תרגום לאיטלקית</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="156"/>
         <source>Testing:</source>
-        <translation>Tests:</translation>
+        <translation>בדיקה:</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="158"/>
         <source>Dual monitor support and other in Linux</source>
-        <translation>Support du double écran et autres sous Linux</translation>
+        <translation>תמיכה בריבוי צדים ועוד בלינוקס</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="159"/>
         <source>Dual monitor support in Linux</source>
-        <translation>Support du double écran sous Linux</translation>
+        <translation>תמיכה בריבוי צגים בלינוקס</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="160"/>
         <source>win32-build [Windows XP and 7]</source>
-        <translation type="unfinished"></translation>
+        <translation>win32-build [Windows XP ו־7]</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="161"/>
         <source>old win32-build [Windows Vista]</source>
-        <translation type="unfinished"></translation>
+        <translation>win32-build ישנה [Windows Vista]</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="162"/>
         <source>win32-build [Windows 7]</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -154,48 +154,48 @@
     <message>
         <location filename="../src/core/ui/configwidget.cpp" line="210"/>
         <source>Directory %1 does not exist. Do you want to create it?</source>
-        <translation>Le répertoire %1 n&apos;existe pas. Voulez vous le crééer ?</translation>
+        <translation>התיקייה %1 אינה קיימת. ליצור אותה?</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.cpp" line="211"/>
         <location filename="../src/core/ui/configwidget.cpp" line="312"/>
         <source>Warning</source>
-        <translation>Attention</translation>
+        <translation>אזהרה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.cpp" line="300"/>
         <source>Select directory</source>
-        <translation>Choisissez un répertoire</translation>
+        <translation>נא לבחור תיקייה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.cpp" line="311"/>
         <source>Do you want to reset the settings to the defaults?</source>
-        <translation>Voulez vous restaurer les paramètres par défaut ?</translation>
+        <translation>לאפס את ההגדרות לבררת המחדל?</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.cpp" line="369"/>
         <source>Example: </source>
-        <translation>Exemple:</translation>
+        <translation>דוגמה: </translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.cpp" line="425"/>
         <source>This key is already used in your system! Please select another.</source>
-        <translation>Cette touche est déjà utilisé sur votre système! Veuillez en sélectionner une autre.</translation>
+        <translation>המערכת שלך כבר משתמשת במפתח הזה! נא לבחור באחד אחר.</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.cpp" line="431"/>
         <source>This key is already used in ScreenGrab! Please select another.</source>
-        <translation>Cette touche est déjà utilisé dans ScreenGrab! Veuillez en sélectionner une autre.</translation>
+        <translation>התכנית ScreenGrab כבר משתמשת במפתח זה! נא לבחור באחד אחר.</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.cpp" line="449"/>
         <source>This key is not supported on your system!</source>
-        <translation>Cette touche n&apos;est pas supportée par votre système!</translation>
+        <translation>המערכת שלך אינה תומכת במפתח זה!</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.cpp" line="484"/>
         <source>Error</source>
-        <translation>Erreur</translation>
+        <translation>שגיאה</translation>
     </message>
 </context>
 <context>
@@ -203,57 +203,57 @@
     <message>
         <location filename="../src/core/core.cpp" line="63"/>
         <source>is a crossplatform application for fast creating screenshots of your desktop.</source>
-        <translation>est une application multi-plateforme pour créer des captures d&apos;écran de votre bureau.</translation>
+        <translation>הוא יישום ליצירת צילומי מסך של שולחן העבודה שלך.</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="67"/>
         <source>Take a fullscreen screenshot</source>
-        <translation>Prendre une capture d&apos;écran de l&apos;écran entier</translation>
+        <translation>צילום המסך כולו</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="71"/>
         <source>Take a screenshot of the active window</source>
-        <translation>Prendre une capture d&apos;écran de la fenêtre active</translation>
+        <translation>צילום החלון הפעיל</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="75"/>
         <source>Take a screenshot of a selection of the screen</source>
-        <translation>Prendre une capture d&apos;écran d&apos;une zone sélectionnée</translation>
+        <translation>צילום חלק מסוים מהמסך</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="79"/>
         <source>Run the application with a hidden main window</source>
-        <translation>Cacher la fenêtre principale</translation>
+        <translation>הפעלת היישום עם חלון ראשי מוסתר</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="422"/>
         <source>Saved</source>
-        <translation>Enregistrement</translation>
+        <translation>נשמר</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="422"/>
         <source>Saved to </source>
-        <translation>Enregistré vers </translation>
+        <translation>נשמר אל </translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="444"/>
         <source>Name of saved file is copied to the clipboard</source>
-        <translation>Le nom du fichier a été copié dans le presse-papiers</translation>
+        <translation>שם הקובץ שנשמר מועתק ללוח הגזירים</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="450"/>
         <source>Path to saved file is copied to the clipboard</source>
-        <translation>Le chemin du fichier a été copié dans le presse-papiers</translation>
+        <translation>הנתיב לקובץ שנשמר מועתק ללוח הגזירים</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="472"/>
         <source>Copied</source>
-        <translation>Copié</translation>
+        <translation>הועתק</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="472"/>
         <source>Screenshot is copied to clipboard</source>
-        <translation>La capture d&apos;écran a été copié dans le presse-papiers</translation>
+        <translation>צילום המסך מועתק ללוח הגזירים</translation>
     </message>
 </context>
 <context>
@@ -261,123 +261,123 @@
     <message>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="14"/>
         <source>Upload to internet</source>
-        <translation>Télécharger sur Internet</translation>
+        <translation>העלאה לאינטרנט</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="22"/>
         <source>Upload to</source>
-        <translation>Télécharger sur</translation>
+        <translation>העלאה אל</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="76"/>
         <source>Direct link:</source>
-        <translation>Lien direct:</translation>
+        <translation>קישור ישיר:</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="98"/>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="189"/>
         <source>Open this link in the default web-browser</source>
-        <translation>Ouvrir ce lien avec le navigateur par défaut</translation>
+        <translation>פתיחת הקישור הזה בדפדפן בררת המחדל</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="101"/>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="192"/>
         <source>Open</source>
-        <translation>Ouvrir</translation>
+        <translation>פתיחה</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="114"/>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="155"/>
         <source>Copy this link to the clipboard</source>
-        <translation>Copier ce lien dans le presse-papier</translation>
+        <translation>העתקת הקישור הזה אל לוח הגזירים</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="117"/>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="158"/>
         <source>Copy</source>
-        <translation type="unfinished">Copier</translation>
+        <translation>העתקה</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="128"/>
         <source>Extended preformed html or bb codes:</source>
-        <translation type="unfinished"></translation>
+        <translation>קודים של bb או html מורחב:</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="167"/>
         <source>Link to delete image:</source>
-        <translation>Lien pour effacer l&apos;image:</translation>
+        <translation>קישור למחיקת תמונה:</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="300"/>
         <source>Upload</source>
-        <translation>Télécharger</translation>
+        <translation>העלאה</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.ui" line="313"/>
         <source>Cancel</source>
-        <translation type="unfinished">Annuler</translation>
+        <translation>ביטול</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="58"/>
         <source>Size: </source>
-        <translation>Taille: </translation>
+        <translation>גודל: </translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="58"/>
         <source> pixel</source>
-        <translation> .pixel</translation>
+        <translation> פיקסלים</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="68"/>
         <source>Uploaded </source>
-        <translation>Téléchargé </translation>
+        <translation>הועלה </translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="71"/>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="212"/>
         <source>Ready to upload</source>
-        <translation>Prêt à télécharger</translation>
+        <translation>מוכן להעלאה</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="108"/>
         <source>Upload processing... Please wait</source>
-        <translation>Téléchargement en cours... Patience.</translation>
+        <translation>ההעלאה עוברת עיבוד… נא להמתין</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="160"/>
         <source>Receiving a response from the server</source>
-        <translation>Réponse du serveur en cours</translation>
+        <translation>מתקבלת תגובה מהשרת</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="177"/>
         <source>Upload completed</source>
-        <translation>Téléchargement terminé</translation>
+        <translation>ההעלאה הושלמה</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="199"/>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="214"/>
         <source>Close</source>
-        <translation type="unfinished">Fermer</translation>
+        <translation>סגירה</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="206"/>
         <source>Error uploading screenshot</source>
-        <translation>Erreur lors du téléchargement de la copie d&apos;écran</translation>
+        <translation>העלאת צילום המסך נתקלה בשגיאה</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="207"/>
         <source>Error</source>
-        <translation type="unfinished">Erreur</translation>
+        <translation>שגיאה</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="244"/>
         <source>Open this link in your default web-browser, it may directly delete your uploaded image, without any warnings.</source>
-        <translation>Ouvrez ce lien dans votre navigateur par défaut, cela peut effacer directement l&apos;image téléchargée, sans le moindre avertissement.</translation>
+        <translation>ניתן לפתוח את הקישור הזה בדפדפן בררת המחדל שלך, הוא עשוי למחוק את התמונה שלך מיידית, ללא אזהרות.</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="245"/>
         <source>Are you sure you want to continue?</source>
-        <translation>Êtes vous sûr de vouloir continuer ?</translation>
+        <translation>להמשיך?</translation>
     </message>
 </context>
 <context>
@@ -385,144 +385,144 @@
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="14"/>
         <source>ScreenGrab</source>
-        <translation>ScreenGrab</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="79"/>
         <source>Type:</source>
-        <translation>Type:</translation>
+        <translation>סוג:</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="89"/>
         <source>Type of screenshot</source>
-        <translation>Type de capture</translation>
+        <translation>סוג צילום המסך</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="96"/>
         <source>Full screen</source>
-        <translation>Plein écran</translation>
+        <translation>מסך מלא</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="101"/>
         <source>Window</source>
-        <translation>Fenêtre active</translation>
+        <translation>חלון</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="106"/>
         <source>Screen area</source>
-        <translation>Sélection</translation>
+        <translation>אזור במסך</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="111"/>
         <source>Last selected area</source>
-        <translation>Dernière zone selectionnée</translation>
+        <translation>האזור האחרון שנבחר</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="141"/>
         <source>Delay:</source>
-        <translation type="unfinished">Délai:</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/mainwindow.ui" line="203"/>
-        <source>Zoom area around mouse</source>
-        <translation>Fait un zoom de la zone située autour de la souris</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/mainwindow.ui" line="210"/>
-        <source>No window decoration</source>
-        <translation type="unfinished">Pas de décoration des fenêtres</translation>
+        <translation>השהיה:</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="154"/>
         <source>Delay in seconds before taking screenshot</source>
-        <translation>Délai en secondes avant de faire la capture</translation>
+        <translation>השהיה בשניות בטרם צילום המסך</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/mainwindow.ui" line="157"/>
+        <source>None</source>
+        <translation>ללא</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="160"/>
         <source> sec</source>
-        <translation> sec</translation>
+        <translation> שניות</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/mainwindow.ui" line="203"/>
+        <source>Zoom area around mouse</source>
+        <translation>התקרבות לאזור שמסביב לסמן</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/mainwindow.ui" line="210"/>
+        <source>No window decoration</source>
+        <translation>ללא עיטור חלונות</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="217"/>
         <source>Include mouse pointer</source>
-        <translation>Inclure le pointeur de la souris</translation>
+        <translation>כולל סמן העכבר</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="246"/>
         <source>toolBar</source>
-        <translation>Barre d&apos;outils</translation>
+        <translation>סרגל כלים</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.cpp" line="64"/>
         <source>New</source>
-        <translation>Nouveau</translation>
+        <translation>חדש</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.cpp" line="65"/>
         <source>Save</source>
-        <translation>Enregistrer</translation>
+        <translation>שמירה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.cpp" line="66"/>
         <source>Copy</source>
-        <translation>Copier</translation>
+        <translation>העתקה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.cpp" line="67"/>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>אפשרויות</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.cpp" line="68"/>
         <location filename="../src/core/ui/mainwindow.cpp" line="92"/>
         <source>Help</source>
-        <translation>Aide</translation>
+        <translation>עזרה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.cpp" line="69"/>
         <source>About</source>
-        <translation>À propos</translation>
+        <translation>על אודות</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.cpp" line="70"/>
         <source>Quit</source>
-        <translation>Quitter</translation>
+        <translation>יציאה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.cpp" line="365"/>
         <source>Screenshot </source>
-        <translation>Capture d&apos;écran </translation>
+        <translation>צילום מסך </translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.cpp" line="369"/>
         <source>Double click to open screenshot in external default image viewer</source>
-        <translation type="unfinished">Double cliquer pour visualiser la capture dans le lecteur externe</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="569"/>
-        <source>%1 Files</source>
-        <translation></translation>
+        <translation>יש ללחוץ לחיצה כפולה כדי לפתוח צילום מסך במציג תמונות חיצוני כבררת מחדל</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.cpp" line="378"/>
         <location filename="../src/core/ui/mainwindow.cpp" line="509"/>
         <source>Hide</source>
-        <translation>Cacher</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/mainwindow.ui" line="157"/>
-        <source>None</source>
-        <translation>Non</translation>
+        <translation>הסתרה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.cpp" line="516"/>
         <source>Show</source>
-        <translation>Montrer</translation>
+        <translation>הצגה</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/mainwindow.cpp" line="569"/>
+        <source>%1 Files</source>
+        <translation>קובצי %1</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.cpp" line="591"/>
         <source>Save As...</source>
-        <translation>Enregistrer sous...</translation>
+        <translation>שמירה בשם…</translation>
     </message>
 </context>
 <context>
@@ -530,12 +530,12 @@
     <message>
         <location filename="../src/modules/uploader/moduleuploader.cpp" line="41"/>
         <source>Upload the screenshot to the default image host</source>
-        <translation type="unfinished"></translation>
+        <translation>העלאת צילום המסך למארח התמונות כבררת מחדל</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/moduleuploader.cpp" line="48"/>
         <source>Uploading</source>
-        <translation>Téléchargement en cours</translation>
+        <translation>מתבצעת העלאה</translation>
     </message>
 </context>
 <context>
@@ -544,12 +544,13 @@
         <location filename="../src/core/regionselect.cpp" line="160"/>
         <source>Use your mouse to draw a rectangle to screenshot or exit pressing
 any key or using the right or middle mouse buttons.</source>
-        <translation>Utilisez la souris pour dessiner une zone rectangulaire à capture ou n&apos;importe quelle touche, clic droit ou clic de la molette pour quitter.</translation>
+        <translation>נא להשתמש בעכבר שלך כדי לצייר ריבוע לצילום או
+לצאת עם כל מקש שהוא או הכפתורים הימני או האמצעי בעכבר.</translation>
     </message>
     <message>
         <location filename="../src/core/regionselect.cpp" line="192"/>
         <source>%1 x %2 pixels </source>
-        <translation>%1 x %2</translation>
+        <translation>%1 × %2 פיקסלים </translation>
     </message>
 </context>
 <context>
@@ -557,17 +558,17 @@ any key or using the right or middle mouse buttons.</source>
     <message>
         <location filename="../src/modules/extedit/moduleextedit.cpp" line="35"/>
         <source>External edit</source>
-        <translation type="unfinished"></translation>
+        <translation>עריכה חיצונית</translation>
     </message>
     <message>
         <location filename="../src/modules/extedit/moduleextedit.cpp" line="46"/>
         <source>Edit in...</source>
-        <translation>Editer avec...</translation>
+        <translation>עריכה עם…</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/moduleuploader.cpp" line="103"/>
         <source>Upload</source>
-        <translation>Télécharger</translation>
+        <translation>העלאה</translation>
     </message>
 </context>
 <context>
@@ -575,32 +576,32 @@ any key or using the right or middle mouse buttons.</source>
     <message>
         <location filename="../src/modules/uploader/uploader.cpp" line="225"/>
         <source>Direct link</source>
-        <translation>Lien direct</translation>
+        <translation>קישור ישיר</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/uploader.cpp" line="228"/>
         <source>HTML code</source>
-        <translation>code HTML</translation>
+        <translation>קוד HTML</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/uploader.cpp" line="231"/>
         <source>BB code</source>
-        <translation>code BB</translation>
+        <translation>קוד BB</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/uploader.cpp" line="234"/>
         <source>HTML code with thumb image</source>
-        <translation>code HTML avec image en vignette</translation>
+        <translation>קוד HTML עם תמונה מוקטנת</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/uploader.cpp" line="237"/>
         <source>BB code with thumb image</source>
-        <translation>code BB avec image en vignette</translation>
+        <translation>קוד BB עם תמונה מוקטנת</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/uploader.cpp" line="240"/>
         <source>URl to delete image</source>
-        <translation>URI pour effacer l&apos;image</translation>
+        <translation>כתובת למחיקת תמונה</translation>
     </message>
 </context>
 <context>
@@ -608,27 +609,27 @@ any key or using the right or middle mouse buttons.</source>
     <message>
         <location filename="../src/modules/uploader/uploaderconfigwidget.ui" line="24"/>
         <source>Common settings</source>
-        <translation>Paramètres généraux</translation>
+        <translation>הגדרות משותפות</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/uploaderconfigwidget.ui" line="32"/>
         <source>Default image host</source>
-        <translation type="unfinished"></translation>
+        <translation>מארח תמונות כבררת מחדל</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/uploaderconfigwidget.ui" line="44"/>
         <source>Always copy the link to the clipboard</source>
-        <translation>Toujours copier le lien dans le presse-papier</translation>
+        <translation>תמיד להעתיק את הקישור ללוח הגזירים</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/uploaderconfigwidget.ui" line="65"/>
         <source>Hosts settings</source>
-        <translation>Paramètres de l&apos;hôte</translation>
+        <translation>הגדרות מארחים</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/uploaderconfigwidget.ui" line="73"/>
         <source>Settings for: </source>
-        <translation>Paramètres pour: </translation>
+        <translation>הגדרות עבור: </translation>
     </message>
 </context>
 <context>
@@ -636,12 +637,12 @@ any key or using the right or middle mouse buttons.</source>
     <message>
         <location filename="../src/modules/uploader/imgur/uploaderconfigwidget_imgur.ui" line="20"/>
         <source>Configuration for imgur.com upload</source>
-        <translation type="unfinished"></translation>
+        <translation>הגדרות להעלאה אל imgur.com</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/imgur/uploaderconfigwidget_imgur.ui" line="43"/>
         <source>No settings available right now</source>
-        <translation>Aucun paramétrage disponible pour le moment</translation>
+        <translation>אין הגדרות זמינות כרגע</translation>
     </message>
 </context>
 <context>
@@ -649,7 +650,7 @@ any key or using the right or middle mouse buttons.</source>
     <message>
         <location filename="../src/modules/uploader/imgur/uploader_imgur_widget.ui" line="20"/>
         <source>Upload to Imgur</source>
-        <translation>Télécharger sur imgur</translation>
+        <translation>העלאה ל־‏Imgur</translation>
     </message>
 </context>
 <context>
@@ -657,12 +658,12 @@ any key or using the right or middle mouse buttons.</source>
     <message>
         <location filename="../src/core/ui/aboutwidget.ui" line="128"/>
         <source>About Qt</source>
-        <translation>À propos de Qt</translation>
+        <translation>על אודות Qt</translation>
     </message>
     <message>
         <location filename="../src/core/ui/aboutwidget.ui" line="154"/>
         <source>Close</source>
-        <translation>Fermer</translation>
+        <translation>סגירה</translation>
     </message>
 </context>
 <context>
@@ -671,292 +672,292 @@ any key or using the right or middle mouse buttons.</source>
         <location filename="../src/core/ui/configwidget.ui" line="26"/>
         <location filename="../src/core/ui/configwidget.ui" line="627"/>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>אפשרויות</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="77"/>
         <source>Main</source>
-        <translation>Principal</translation>
+        <translation>ראשי</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="82"/>
         <source>Advanced</source>
-        <translation>Avancé</translation>
+        <translation>מתקדם</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="87"/>
         <source>System tray</source>
-        <translation>Barre des tâches</translation>
+        <translation>מגש מערכת</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="92"/>
         <source>Shortcuts</source>
-        <translation>Raccourcis</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="122"/>
-        <source>Path to default selection dir for saving</source>
-        <translation>Chemin vers le répertoire d&apos;enregistrement par défaut</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="135"/>
-        <source>Browse filesystem</source>
-        <translation>Parcourir le système de fichiers</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="138"/>
-        <source>Browse</source>
-        <translation>Parcourir</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="168"/>
-        <source>Default filename</source>
-        <translation>Nom de fichier par défaut</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="179"/>
-        <source>Format</source>
-        <translation>Format</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="192"/>
-        <source>Default saving image format</source>
-        <translation>Format d&apos;image par défaut</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="211"/>
-        <source>Copy file name to the clipboard when saving</source>
-        <translation>Copier le nom du fichier dans le presse-papiers lors de l&apos;enregistrement</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="225"/>
-        <source>Do not copy</source>
-        <translation>Ne pas copier</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="230"/>
-        <source>Copy file name only</source>
-        <translation>Copier le nom du fichier seulement</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="235"/>
-        <source>Copy full file path</source>
-        <translation>Copier le chemin complet</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="515"/>
-        <source> sec</source>
-        <translation> sec</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="245"/>
-        <source>Image quality</source>
-        <translation>Qualité d&apos;image</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="251"/>
-        <source>Image quality (1 - small file, 100 - high quality)</source>
-        <translation>Qualité d&apos;image (1 - basse qualité, 100 - haute qualité)</translation>
+        <translation>קיצורי דרך</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="116"/>
         <source>Default save directory</source>
-        <translation>Répertoire de sauvegarde par défaut</translation>
+        <translation>תיקיית שמירה כבררת מחדל</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="122"/>
+        <source>Path to default selection dir for saving</source>
+        <translation>נתיב לתיקייה הנבחרת לשמירה כבררת מחדל</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="135"/>
+        <source>Browse filesystem</source>
+        <translation>עיון במערכת הקבצים</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="138"/>
+        <source>Browse</source>
+        <translation>עיון</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="148"/>
         <source>Default file</source>
-        <translation>Fichier par défaut</translation>
+        <translation>קובץ בררת מחדל</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="161"/>
         <source>Name:</source>
-        <translation>Nom:</translation>
+        <translation>שם:</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="168"/>
+        <source>Default filename</source>
+        <translation>שם קובץ כבררת מחדל</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="179"/>
+        <source>Format</source>
+        <translation>תבנית</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="192"/>
+        <source>Default saving image format</source>
+        <translation>תבנית לשמירת קבצים כבררת מחדל</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="211"/>
+        <source>Copy file name to the clipboard when saving</source>
+        <translation>להעתיק את שם הקובץ ללוח הגזירים בעת השמירה</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="225"/>
+        <source>Do not copy</source>
+        <translation>לא להעתיק</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="230"/>
+        <source>Copy file name only</source>
+        <translation>להעתיק את שם הקובץ בלבד</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="235"/>
+        <source>Copy full file path</source>
+        <translation>להעתיק את הנתיב המלא לקובץ</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="245"/>
+        <source>Image quality</source>
+        <translation>איכות תמונה</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="251"/>
+        <source>Image quality (1 - small file, 100 - high quality)</source>
+        <translation>איכות תמונה (1 - קובץ קטן, 100 - איכות גבוהה)</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="316"/>
         <source>Inserting current date time into saved filename</source>
-        <translation>Ajouter la date au nom de fichier</translation>
+        <translation>הוספת התאריך והשעה הנוכחיים לשם של הקובץ שנשמר</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="319"/>
         <source>Insert current date and time in file name</source>
-        <translation>Ajouter la date au nom du fichier</translation>
+        <translation>הוספת התאריך והשעה הנוכחית לשם הקובץ</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="328"/>
         <source>Template: </source>
-        <translation>Modèle: </translation>
+        <translation>תבנית: </translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="353"/>
         <source>Example: </source>
-        <translation>Exemple: </translation>
+        <translation>דוגמה: </translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="363"/>
         <source>Automatically saving screenshots in grabbing process</source>
-        <translation>Enregistrer automatiquement à la capture</translation>
+        <translation>שמירת צילומי מסך אוטומטית במהלך הלכידה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="366"/>
         <source>Autosave screenshot</source>
-        <translation>Enregistrer automatiquement les captures</translation>
+        <translation>שמירת צילומי מסך אוטומטית</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="378"/>
         <source>Save first screenshot</source>
-        <translation>Enregistrer la première capture</translation>
+        <translation>שמירת צילום המסך הראשון</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="387"/>
         <source>Allow run multiplies copy of ScreenGrab</source>
-        <translation>Autoriser plusieurs instances de ScreenGrab</translation>
+        <translation>לאפשר להריץ מספר עותקים של ScreenGrab</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="390"/>
         <source>Allow multiple instances of ScreenGrab</source>
-        <translation>Autoriser plusieurs instances de ScreenGrab</translation>
+        <translation>לאפשר מספר עותקים של ScreenGrab</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="397"/>
         <source>Open in external viewer on double click</source>
-        <translation>Ouvir dans le visualiseur externe au double clic</translation>
+        <translation>פתיחה במציג חיצוני בלחיצה כפולה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="400"/>
         <source>Enable external viewer</source>
-        <translation>Activer le visualiseur externe</translation>
+        <translation>הפעלת מציג חיצוני</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="407"/>
         <source>Fit to edges only inside selected screen area</source>
-        <translation>Faire correspondre les bords de la sélection avec les bords de la zone rectangulaire sélectionné</translation>
+        <translation>התאמה לקצוות רק בתוך אזור המסך הנבחר</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="410"/>
         <source>Fit to edges inside selected area</source>
-        <translation>Faire correspondre les bords de la sélection avec les bords de la zone rectangulaire sélectionné</translation>
+        <translation>התאמה לקצוות בתוך האזור הנבחר</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="448"/>
         <source>Show ScreenGrab in the system tray</source>
-        <translation>Placer ScreenGrab dans la barre des tâches</translation>
+        <translation>הצגת ScreenGrab במגש המערכת</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="457"/>
         <source>Tray messages:</source>
-        <translation>Notifications:</translation>
+        <translation>הודעות מגש:</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="470"/>
         <source>Tray messages display mode</source>
-        <translation>Mode d&apos;affichage des notifications</translation>
+        <translation>מצב תצוגת הודעות מגש</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="474"/>
         <source>Never</source>
-        <translation>Jamais</translation>
+        <translation>לעולם לא</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="479"/>
         <source>Tray mode</source>
-        <translation type="unfinished"></translation>
+        <translation>מצב מגש</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="484"/>
         <source>Always</source>
-        <translation>Toujours</translation>
+        <translation>תמיד</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="496"/>
         <source>Time of display tray messages</source>
-        <translation>Temps d&apos;affichage des notifications</translation>
+        <translation>מועד הצגת הודעות מגש</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="512"/>
         <source>Time to display tray messages</source>
-        <translation>Temps d&apos;affichage des notifications</translation>
+        <translation>מועד להצגת הודעות מגש</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="515"/>
+        <source> sec</source>
+        <translation> שניות</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="533"/>
         <source>Minimize to tray on click close button</source>
-        <translation>Minimiser lors d&apos;un clic sur le bouton de fermeture</translation>
+        <translation>מזעור למגש עם לחיצה על כפתור הסגירה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="536"/>
         <source>Minimize to tray when closing</source>
-        <translation>Minimiser lors d&apos;un clic sur le bouton de fermeture</translation>
+        <translation>מזעור למגש בעת סגירה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="575"/>
         <source>Action</source>
-        <translation>Action</translation>
+        <translation>פעולה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="580"/>
         <source>Shortcut</source>
-        <translation>Raccourci</translation>
+        <translation>קיצור דרך</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="585"/>
         <source>Global shortcuts</source>
-        <translation>Raccourcis globaux</translation>
+        <translation>קיצורי דרך גלובליים</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="592"/>
         <source>Full screen</source>
-        <translation type="unfinished">Plein écran</translation>
+        <translation type="unfinished">מסך מלא</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="597"/>
         <source>Active window</source>
-        <translation>Fenêtre active</translation>
+        <translation>חלון פעיל</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="602"/>
         <source>Area select</source>
-        <translation>Sélection</translation>
+        <translation>בחירת אזור</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="608"/>
         <source>Local shortcuts</source>
-        <translation>Raccourcis locaux</translation>
+        <translation>קיצורי דרך מקומיים</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="612"/>
         <source>New screen</source>
-        <translation>Nouvelle capture</translation>
+        <translation>מסך חדש</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="617"/>
         <source>Save screen</source>
-        <translation>Enregistrer la capture</translation>
+        <translation>שמירת המסך</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="622"/>
         <source>Copy screen</source>
-        <translation>Copier la capture</translation>
+        <translation>העתקת המסך</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="632"/>
         <source>Help</source>
-        <translation>Aide</translation>
+        <translation>עזרה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="637"/>
         <source>Quit</source>
-        <translation>Quitter</translation>
+        <translation>יציאה</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="648"/>
         <source>Selected shortcut:</source>
-        <translation>Raccourci sélectionné:</translation>
+        <translation>קיצורי דרך נבחרים:</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="655"/>
         <source>Not defined</source>
-        <translation>Non défini</translation>
+        <translation>לא מוגדר</translation>
     </message>
 </context>
 </TS>
