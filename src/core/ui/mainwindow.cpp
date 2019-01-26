@@ -195,7 +195,7 @@ void MainWindow::updatePixmap(QPixmap *pMap)
                                  : *pMap);
 }
 
-void MainWindow::updateModulesActions(QList<QAction *> list)
+void MainWindow::updateModulesActions(const QList<QAction *> &list)
 {
     _ui->toolBar->insertSeparator(actOptions);
     if (list.count() > 0)
@@ -209,14 +209,14 @@ void MainWindow::updateModulesActions(QList<QAction *> list)
     }
 }
 
-void MainWindow::updateModulesenus(QList<QMenu *> list)
+void MainWindow::updateModulesenus(const QList<QMenu *> &list)
 {
     if (list.count() > 0)
     {
         for (int i = 0; i < list.count(); ++i)
         {
             QMenu *menu = list.at(i);
-            if (menu != 0)
+            if (menu != nullptr)
             {
                 QToolButton* btn = new QToolButton(this);
                 btn->setText(menu->title());
@@ -234,16 +234,15 @@ void MainWindow::show()
 {
     if (!isVisible() && !_trayed)
         showNormal();
+    if (_trayIcon){
+        if (_conf->getShowTrayIcon())
+        {
+            _trayIcon->blockSignals(false);
+            _trayIcon->setContextMenu(_trayMenu);
+        }
 
-    if (_conf->getShowTrayIcon())
-    {
-        _trayIcon->blockSignals(false);
-        _trayIcon->setContextMenu(_trayMenu);
+    _trayIcon->setVisible(true);
     }
-
-    if (_trayIcon)
-        _trayIcon->setVisible(true);
-
     QMainWindow::show();
 }
 
@@ -565,11 +564,11 @@ void MainWindow::saveScreen()
     // create initial filepath
     QHash<QString, QString> formatsAvalible;
     const QStringList formatIDs = _conf->getFormatIDs();
+    if (formatIDs.isEmpty()) return;
     for (const QString &formatID : formatIDs)
         formatsAvalible[formatID] = tr("%1 Files").arg(formatID.toUpper());
 
-    QString format = formatIDs.at(_conf->getDefaultFormatID());
-    _conf->getSaveFormat();
+    QString format = formatIDs.at(qBound(0, _conf->getDefaultFormatID(), formatIDs.size() - 1));
 
     Core* c = Core::instance();
     QString filePath = c->getSaveFilePath(format);
@@ -591,7 +590,7 @@ void MainWindow::saveScreen()
     QString fileName;
     fileName = QFileDialog::getSaveFileName(this, tr("Save As..."),  filePath, fileFilters.join(";;"), &filterSelected);
 
-    QRegExp rx("\\(\\*\\.[a-z]{3,4}\\)");
+    QRegExp rx(R"(\(\*\.[a-z]{3,4}\))");
     quint8 tmp = filterSelected.size() - rx.indexIn(filterSelected);
 
     filterSelected.chop(tmp + 1);

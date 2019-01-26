@@ -50,7 +50,7 @@ ShortcutManager::ShortcutManager(QSettings *settings) :
 
 ShortcutManager::~ShortcutManager()
 {
-    _shortcutSettings = NULL;
+    _shortcutSettings = nullptr;
     delete _shortcutSettings;
 }
 
@@ -113,7 +113,7 @@ void ShortcutManager::setDefaultSettings()
     setShortcut(DEF_SHORTCUT_AREA,Config::shortcutAreaSelect, Config::globalShortcut);
 }
 
-void ShortcutManager::setShortcut(QString key, int action, int type)
+void ShortcutManager::setShortcut(const QString &key, int action, int type)
 {
     _listShortcuts[action].key = key;
     _listShortcuts[action].action = action;

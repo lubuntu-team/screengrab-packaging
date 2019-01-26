@@ -21,12 +21,12 @@
     <message>
         <location filename="../src/core/ui/about.cpp" line="102"/>
         <source>It is a light and powerful application, written in Qt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это легкое и мощное приложение, написанное на Qt.</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="105"/>
         <source>Website</source>
-        <translation type="unfinished"></translation>
+        <translation>Сайт</translation>
     </message>
     <message>
         <location filename="../src/core/ui/about.cpp" line="109"/>
@@ -152,48 +152,48 @@
 <context>
     <name>ConfigDialog</name>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="301"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="300"/>
         <source>Select directory</source>
         <translation>Выбрать папку</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="212"/>
-        <location filename="../src/core/ui/configwidget.cpp" line="313"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="211"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="312"/>
         <source>Warning</source>
-        <translation>Предупрждение</translation>
+        <translation>Предупреждение</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="211"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="210"/>
         <source>Directory %1 does not exist. Do you want to create it?</source>
         <translation>Папка %1 не существует. Вы хотите создать её?</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="312"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="311"/>
         <source>Do you want to reset the settings to the defaults?</source>
         <translation>Сбросить настройки на настройки по умолчанию?</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="370"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="369"/>
         <source>Example: </source>
         <translation>Пример: </translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="426"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="425"/>
         <source>This key is already used in your system! Please select another.</source>
         <translation>Эта комбинация уже используется в вашей системе! Выберите другую.</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="432"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="431"/>
         <source>This key is already used in ScreenGrab! Please select another.</source>
         <translation>Эта комбинация уже используется в ScreenGrab! Выберите другую.</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="450"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="449"/>
         <source>This key is not supported on your system!</source>
         <translation>Эта комбинация не поддерживается вашей системой!</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/configwidget.cpp" line="485"/>
+        <location filename="../src/core/ui/configwidget.cpp" line="484"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
@@ -201,57 +201,57 @@
 <context>
     <name>Core</name>
     <message>
-        <location filename="../src/core/core.cpp" line="421"/>
+        <location filename="../src/core/core.cpp" line="422"/>
         <source>Saved</source>
         <translation>Сохранено</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="443"/>
+        <location filename="../src/core/core.cpp" line="444"/>
         <source>Name of saved file is copied to the clipboard</source>
         <translation>Имя сохранённого файла скопировано в буфер обмена</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="471"/>
+        <location filename="../src/core/core.cpp" line="472"/>
         <source>Copied</source>
         <translation>Скопировано</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="421"/>
+        <location filename="../src/core/core.cpp" line="422"/>
         <source>Saved to </source>
-        <translation>Слхранено в </translation>
+        <translation>Сохранено в </translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="63"/>
         <source>is a crossplatform application for fast creating screenshots of your desktop.</source>
-        <translation type="unfinished">кроссплатформенное приложение для быстрого создания снимков вашего рабочего стола.</translation>
+        <translation>кроссплатформенное приложение для быстрого создания снимков вашего рабочего стола.</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="67"/>
         <source>Take a fullscreen screenshot</source>
-        <translation type="unfinished"></translation>
+        <translation>Сделать снимок всего экрана</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="71"/>
         <source>Take a screenshot of the active window</source>
-        <translation type="unfinished"></translation>
+        <translation>Сделать снимок активного окна</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="75"/>
         <source>Take a screenshot of a selection of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Сделать снимок выбранной области экрана</translation>
     </message>
     <message>
         <location filename="../src/core/core.cpp" line="79"/>
         <source>Run the application with a hidden main window</source>
-        <translation type="unfinished"></translation>
+        <translation>Запустить приложение со скрытым главным окном</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="449"/>
+        <location filename="../src/core/core.cpp" line="450"/>
         <source>Path to saved file is copied to the clipboard</source>
         <translation>Путь к сохранённому файлу скопирован в буфер обмена</translation>
     </message>
     <message>
-        <location filename="../src/core/core.cpp" line="471"/>
+        <location filename="../src/core/core.cpp" line="472"/>
         <source>Screenshot is copied to clipboard</source>
         <translation>Скриншот скопирован в буфер обмена</translation>
     </message>
@@ -318,8 +318,8 @@
         <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="201"/>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="216"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="199"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="214"/>
         <source>Close</source>
         <translation>Закрыть</translation>
     </message>
@@ -340,42 +340,42 @@
     </message>
     <message>
         <location filename="../src/modules/uploader/dialoguploader.cpp" line="71"/>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="214"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="212"/>
         <source>Ready to upload</source>
         <translation>Готово к загрузке</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="109"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="108"/>
         <source>Upload processing... Please wait</source>
         <translation>Происходит загрузка... Подождите пожалуйста</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="246"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="244"/>
         <source>Open this link in your default web-browser, it may directly delete your uploaded image, without any warnings.</source>
         <translation>Открыть эту ссылку в вашем браузере по умолчанию, это может удалить загруженное вами изображение без предупреждений.</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="162"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="160"/>
         <source>Receiving a response from the server</source>
         <translation>Получение ответа от сервера</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="179"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="177"/>
         <source>Upload completed</source>
         <translation>Загрузка завершена</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="208"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="206"/>
         <source>Error uploading screenshot</source>
         <translation>Ошибка загрузки скриншота</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="209"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="207"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../src/modules/uploader/dialoguploader.cpp" line="247"/>
+        <location filename="../src/modules/uploader/dialoguploader.cpp" line="245"/>
         <source>Are you sure you want to continue?</source>
         <translation>Вы действительно хотите продолжить?</translation>
     </message>
@@ -383,7 +383,7 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="355"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="365"/>
         <source>Screenshot </source>
         <translation>Скриншот </translation>
     </message>
@@ -408,13 +408,13 @@
         <translation>Копировать</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="359"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="369"/>
         <source>Double click to open screenshot in external default image viewer</source>
-        <translation type="unfinished">Подвійний клік відкриє скріншот у зовнішньому переглядачі</translation>
+        <translation>Двойной щелчёк откроет снимок экрана во внешнем просмотрщике</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="368"/>
-        <location filename="../src/core/ui/mainwindow.cpp" line="499"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="378"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="509"/>
         <source>Hide</source>
         <translation>Скрыть окно</translation>
     </message>
@@ -431,20 +431,20 @@
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="157"/>
         <source>None</source>
-        <translation>Нет</translation>
+        <translation type="unfinished">Нет</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="506"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="516"/>
         <source>Show</source>
         <translation>Показать окно</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="558"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="569"/>
         <source>%1 Files</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Файлы</translation>
     </message>
     <message>
-        <location filename="../src/core/ui/mainwindow.cpp" line="581"/>
+        <location filename="../src/core/ui/mainwindow.cpp" line="591"/>
         <source>Save As...</source>
         <translation>Сохранить как...</translation>
     </message>
@@ -456,7 +456,7 @@
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="79"/>
         <source>Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип:</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="89"/>
@@ -481,32 +481,32 @@
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="111"/>
         <source>Last selected area</source>
-        <translation type="unfinished"></translation>
+        <translation>Последняя выбранная область</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="141"/>
         <source>Delay:</source>
-        <translation type="unfinished">Задержка:</translation>
+        <translation>Задержка:</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="203"/>
         <source>Zoom area around mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Приблизить область вокруг мыши</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="210"/>
         <source>No window decoration</source>
-        <translation type="unfinished">Без декораций окна</translation>
+        <translation>Без декораций окна</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="217"/>
         <source>Include mouse pointer</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить указатель мыши</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="246"/>
         <source>toolBar</source>
-        <translation type="unfinished"></translation>
+        <translation>Панель</translation>
     </message>
     <message>
         <location filename="../src/core/ui/mainwindow.ui" line="154"/>
@@ -530,7 +530,7 @@
     <message>
         <location filename="../src/modules/uploader/moduleuploader.cpp" line="41"/>
         <source>Upload the screenshot to the default image host</source>
-        <translation type="unfinished"></translation>
+        <translation>Загрузить снимок экрана в хранилище изображений по умолчанию</translation>
     </message>
     <message>
         <location filename="../src/modules/uploader/moduleuploader.cpp" line="48"/>
@@ -550,18 +550,18 @@ any key or using the right or middle mouse buttons.</source>
     <message>
         <location filename="../src/core/regionselect.cpp" line="192"/>
         <source>%1 x %2 pixels </source>
-        <translation>%1 x %2 пиксел </translation>
+        <translation>%1 x %2 пикс </translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/modules/extedit/moduleextedit.cpp" line="38"/>
+        <location filename="../src/modules/extedit/moduleextedit.cpp" line="35"/>
         <source>External edit</source>
-        <translation type="unfinished">Внешнее редактирование</translation>
+        <translation>Внешний редактор</translation>
     </message>
     <message>
-        <location filename="../src/modules/extedit/moduleextedit.cpp" line="49"/>
+        <location filename="../src/modules/extedit/moduleextedit.cpp" line="46"/>
         <source>Edit in...</source>
         <translation>Открыть в ...</translation>
     </message>
@@ -643,7 +643,7 @@ any key or using the right or middle mouse buttons.</source>
     <message>
         <location filename="../src/modules/uploader/imgur/uploaderconfigwidget_imgur.ui" line="43"/>
         <source>No settings available right now</source>
-        <translation type="unfinished"></translation>
+        <translation>Нет доступных настроек</translation>
     </message>
 </context>
 <context>
@@ -651,7 +651,7 @@ any key or using the right or middle mouse buttons.</source>
     <message>
         <location filename="../src/modules/uploader/imgur/uploader_imgur_widget.ui" line="20"/>
         <source>Upload to Imgur</source>
-        <translation type="unfinished"></translation>
+        <translation>Загрузить на Imgur</translation>
     </message>
 </context>
 <context>
@@ -723,12 +723,12 @@ any key or using the right or middle mouse buttons.</source>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="407"/>
         <source>Fit to edges only inside selected screen area</source>
-        <translation type="unfinished"></translation>
+        <translation>Если используются несколько экранов, обрезать выбранную область по краям текущего экрана</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="410"/>
         <source>Fit to edges inside selected area</source>
-        <translation type="unfinished"></translation>
+        <translation>Обрезать область по размерам текущего экрана</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="448"/>
@@ -754,11 +754,6 @@ any key or using the right or middle mouse buttons.</source>
         <location filename="../src/core/ui/configwidget.ui" line="585"/>
         <source>Global shortcuts</source>
         <translation>Глобальные комбинации</translation>
-    </message>
-    <message>
-        <location filename="../src/core/ui/configwidget.ui" line="592"/>
-        <source>Fill screen</source>
-        <translation>Весь экран</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="597"/>
@@ -868,17 +863,17 @@ any key or using the right or middle mouse buttons.</source>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="116"/>
         <source>Default save directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Директория для сохранения по умолчанию</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="148"/>
         <source>Default file</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл по умолчанию</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="161"/>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Имя:</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="328"/>
@@ -939,6 +934,11 @@ any key or using the right or middle mouse buttons.</source>
         <location filename="../src/core/ui/configwidget.ui" line="580"/>
         <source>Shortcut</source>
         <translation>Клавиши</translation>
+    </message>
+    <message>
+        <location filename="../src/core/ui/configwidget.ui" line="592"/>
+        <source>Full screen</source>
+        <translation>Весь экран</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="637"/>

@@ -27,12 +27,12 @@
 #include <QDebug>
 
 Uploader::Uploader(QObject *parent) :
-    QObject(parent), _multipartData(0)
+    QObject(parent), _multipartData(nullptr)
 {
     qsrand(126);
     _strBoundary = "uploadbound" + QByteArray::number(qrand());
     _net = new QNetworkAccessManager(this);
-    _serverReply = 0;
+    _serverReply = nullptr;
     initUploadedStrList();
 
     UploaderConfig config;
@@ -170,7 +170,7 @@ void Uploader::createData(bool inBase64)
  *  Create request for send to server.
  *  this method called from subclasses.
  */
-void Uploader::createRequest(const QByteArray& requestData, const QUrl url)
+void Uploader::createRequest(const QByteArray& requestData, const QUrl &url)
 {
     Q_UNUSED(requestData);
     _request.setUrl(url);
