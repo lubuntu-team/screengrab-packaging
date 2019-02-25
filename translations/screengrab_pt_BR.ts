@@ -727,7 +727,7 @@ qualquer tecla ou usando os botões direito ou do meio do mouse.</translation>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="410"/>
         <source>Fit to edges inside selected area</source>
-        <translation>Ajustar dentro da área selecionada</translation>
+        <translation>Ajustar às bordas dentro da área selecionada</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="448"/>
@@ -947,7 +947,7 @@ qualquer tecla ou usando os botões direito ou do meio do mouse.</translation>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="592"/>
         <source>Full screen</source>
-        <translation type="unfinished">Tela cheia</translation>
+        <translation>Tela cheia</translation>
     </message>
     <message>
         <location filename="../src/core/ui/configwidget.ui" line="637"/>
