@@ -1,3 +1,9 @@
+screengrab (1.101-1ubuntu1) disco; urgency=medium
+
+  * Lubuntuify the package.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 12:22:10 -0600
+
 screengrab (1.101-1) unstable; urgency=medium
 
   * Cherry-picked upstream version 1.101.
