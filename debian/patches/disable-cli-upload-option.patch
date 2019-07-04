@@ -5,7 +5,7 @@ Last-Update: 2016-09-19
 
 --- a/src/modules/uploader/moduleuploader.cpp
 +++ b/src/modules/uploader/moduleuploader.cpp
-@@ -36,11 +36,11 @@
+@@ -36,11 +36,11 @@ const QString UPLOAD_CMD_PARAM_SHORT = "
  
  ModuleUploader::ModuleUploader(QObject *parent) :
      QObject(parent), _ignoreCmdParam(false),

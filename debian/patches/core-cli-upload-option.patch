@@ -5,7 +5,7 @@ Last-Update: 2016-09-19
 
 --- a/src/core/core.cpp
 +++ b/src/core/core.cpp
-@@ -536,8 +536,9 @@
+@@ -535,8 +535,9 @@ void Core::processCmdLineOpts(const QStr
          if (_cmdLine.isSet(_screenTypeOpts.at(i)))
              _conf->setDefScreenshotType(i);
  
@@ -16,7 +16,7 @@ Last-Update: 2016-09-19
      const QString UPLOAD_CMD_PARAM = "upload";
      const QString UPLOAD_CMD_PARAM_SHORT = "u";
      QCommandLineOption u(QStringList() << UPLOAD_CMD_PARAM_SHORT << UPLOAD_CMD_PARAM);
-@@ -549,6 +550,9 @@
+@@ -548,6 +549,9 @@ void Core::processCmdLineOpts(const QStr
      } else
          initWindow();
  #endif

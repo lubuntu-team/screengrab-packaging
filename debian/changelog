@@ -1,3 +1,9 @@
+screengrab (1.101-1ubuntu2) UNRELEASED; urgency=medium
+
+  * Refreshed patches
+
+ -- apt-ghetto <apt-ghetto@lubuntu.me>  Thu, 04 Jul 2019 17:55:29 +0200
+
 screengrab (1.101-1ubuntu1) disco; urgency=medium
 
   * Lubuntuify the package.
