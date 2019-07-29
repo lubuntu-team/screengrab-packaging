@@ -5,24 +5,22 @@ Last-Update: 2016-09-19
 
 --- a/src/core/core.cpp
 +++ b/src/core/core.cpp
-@@ -535,8 +535,9 @@ void Core::processCmdLineOpts(const QStr
+@@ -534,7 +534,7 @@ void Core::processCmdLineOpts(const QStringList& arguments)
+     for (int i=0; i < _screenTypeOpts.count(); ++i)
          if (_cmdLine.isSet(_screenTypeOpts.at(i)))
              _conf->setDefScreenshotType(i);
- 
+-
 +/*
  #ifdef SG_EXT_UPLOADS
--    /// FIXMA - In module interface need add the mthod for geting module cmdLine options
-+    /// FIXMA - In module interface need add the mthod for geting module cmdLine option
-     const QString UPLOAD_CMD_PARAM = "upload";
-     const QString UPLOAD_CMD_PARAM_SHORT = "u";
-     QCommandLineOption u(QStringList() << UPLOAD_CMD_PARAM_SHORT << UPLOAD_CMD_PARAM);
-@@ -548,6 +549,9 @@ void Core::processCmdLineOpts(const QStr
-     } else
-         initWindow();
+     /// FIXMA - In module interface need add the mthod for geting module cmdLine options
+     const QString UPLOAD_CMD_PARAM = QStringLiteral("upload");
+@@ -550,6 +550,9 @@ void Core::processCmdLineOpts(const QStringList& arguments)
+ #else
+     initWindow();
  #endif
 +*/
 +
-+initWindow();
++   initWindow();
  
  }
- 
+

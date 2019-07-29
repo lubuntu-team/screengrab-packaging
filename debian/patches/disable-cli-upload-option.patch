@@ -5,17 +5,12 @@ Last-Update: 2016-09-19
 
 --- a/src/modules/uploader/moduleuploader.cpp
 +++ b/src/modules/uploader/moduleuploader.cpp
-@@ -36,11 +36,11 @@ const QString UPLOAD_CMD_PARAM_SHORT = "
- 
- ModuleUploader::ModuleUploader(QObject *parent) :
-     QObject(parent), _ignoreCmdParam(false),
--    _optUpload(QStringList() << UPLOAD_CMD_PARAM_SHORT << UPLOAD_CMD_PARAM)
-+    _optUpload(QStringList() << UPLOAD_CMD_PARAM_SHORT << UPLOAD_CMD_PARAM) 
+@@ -40,7 +40,7 @@ ModuleUploader::ModuleUploader(QObject *parent) :
  {
      QString optUploadDescr = tr("Upload the screenshot to the default image host");
      _optUpload.setDescription(optUploadDescr);
 -    Core::instance()->addCmdLineOption(_optUpload);
-+    /* Core::instance()->addCmdLineOption(_optUpload); */
++    // Core::instance()->addCmdLineOption(_optUpload);
  }
  
  QString ModuleUploader::moduleName()
