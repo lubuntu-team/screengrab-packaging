@@ -1,8 +1,9 @@
 screengrab (1.101-1ubuntu2) focal; urgency=medium
 
   * Removed patches, because they are applied upstream.
+  * Updated rules and control.
 
- -- apt-ghetto <apt-ghetto@lubuntu.me>  Tue, 24 Dec 2019 13:45:09 +0100
+ -- apt-ghetto <apt-ghetto@lubuntu.me>  Tue, 24 Dec 2019 14:08:20 +0100
 
 screengrab (1.101-1ubuntu1) disco; urgency=medium
 
