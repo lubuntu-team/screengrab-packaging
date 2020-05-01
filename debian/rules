@@ -17,8 +17,8 @@ override_dh_makeshlibs:
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
-		-DSG_DBUS_NOTIFY=ON \
-		-DSG_EXT_EDIT=ON \
-		-DSG_GLOBALSHORTCUTS=OFF \
-		-DUPDATE_TRANSLATIONS=OFF \
-		-DCMAKE_BUILD_TYPE=RelWithDebInfo
+	    -DSG_DBUS_NOTIFY=ON \
+	    -DSG_EXT_EDIT=ON \
+	    -DSG_GLOBALSHORTCUTS=OFF \
+	    -DUPDATE_TRANSLATIONS=OFF \
+	    -DCMAKE_BUILD_TYPE=RelWithDebInfo
