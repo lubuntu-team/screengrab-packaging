@@ -17,7 +17,7 @@ Build-Depends: debhelper-compat (= 12),
                libxcb1-dev,
                libxcb-xfixes0-dev [!kfreebsd-any],
                lxqt-build-tools
-Standards-Version: 4.4.1
+Standards-Version: 4.5.0
 Vcs-Browser: https://phab.lubuntu.me/source/screengrab/
 Vcs-Git: https://phab.lubuntu.me/source/screengrab.git
 XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/screengrab
