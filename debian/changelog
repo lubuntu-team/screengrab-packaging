@@ -1,7 +1,11 @@
-screengrab (1.101-1ubuntu1) focal; urgency=medium
+screengrab (2.0.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ apt-ghetto ]
   * Removed patches, because they are applied upstream.
   * Updated rules and control.
+
+  [ Simon Quigley ]
+  * New upstream release.
 
  -- apt-ghetto <apt-ghetto@lubuntu.me>  Tue, 24 Dec 2019 14:08:20 +0100
 
