@@ -14,8 +14,8 @@ Build-Depends: debhelper-compat (= 12),
                libqt5xdgiconloader-dev (>= 3.5.0),
                libx11-dev,
                libx11-xcb-dev,
-               libxcb1-dev,
                libxcb-xfixes0-dev [!kfreebsd-any],
+               libxcb1-dev,
                lxqt-build-tools
 Standards-Version: 4.5.0
 Vcs-Browser: https://phab.lubuntu.me/source/screengrab/
@@ -26,8 +26,7 @@ Homepage: https://github.com/lxqt/screengrab
 
 Package: screengrab
 Architecture: any
-Depends: ${shlibs:Depends},
-         ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Crossplatform tool for getting screenshots
  Screengrab working in Linux and Windows. The program uses Qt and is
  independent of any desktop environment.
