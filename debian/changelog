@@ -1,4 +1,4 @@
-screengrab (2.0.1-0ubuntu1) UNRELEASED; urgency=medium
+screengrab (2.0.1-0ubuntu1) groovy; urgency=medium
 
   [ apt-ghetto ]
   * Removed patches, because they are applied upstream.
@@ -11,7 +11,7 @@ screengrab (2.0.1-0ubuntu1) UNRELEASED; urgency=medium
   * Update Standards-version to 4.5.0, no changes needed.
   * Run wrap-and-sort.
 
- -- apt-ghetto <apt-ghetto@lubuntu.me>  Tue, 24 Dec 2019 14:08:20 +0100
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 04 Jun 2020 14:42:04 -0500
 
 screengrab (2.0.0-1) unstable; urgency=medium
 
