@@ -1,3 +1,17 @@
+screengrab (2.1.0-1ubuntu1) hirsute; urgency=medium
+
+  * Merge from Debian unstable. Remaining changes:
+    - Bump debhelper-compat (=13).
+    - Update Standards-version to 4.5.1, no changes needed.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 21 Feb 2021 20:04:40 -0500
+
+screengrab (2.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2021 17:21:24 +0800
+
 screengrab (2.0.1-0ubuntu1) groovy; urgency=medium
 
   [ apt-ghetto ]

@@ -6,7 +6,7 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>
 Section: graphics
 Priority: optional
-Build-Depends: debhelper-compat (= 12),
+Build-Depends: debhelper-compat (= 13),
                libkf5windowsystem-dev,
                libqt5svg5-dev,
                libqt5x11extras5-dev,
@@ -17,7 +17,7 @@ Build-Depends: debhelper-compat (= 12),
                libxcb-xfixes0-dev [!kfreebsd-any],
                libxcb1-dev,
                lxqt-build-tools
-Standards-Version: 4.5.0
+Standards-Version: 4.5.1
 Vcs-Browser: https://phab.lubuntu.me/source/screengrab/
 Vcs-Git: https://phab.lubuntu.me/source/screengrab.git
 XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/screengrab
