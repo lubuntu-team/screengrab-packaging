@@ -1,3 +1,16 @@
+screengrab (2.2.0-0ubuntu1) impish; urgency=medium
+
+  * New upstream release 2.2.0
+  * Update debian/control
+    - Use libqt5xdg-dev 3.7.1
+    - Use libqt5xdgiconloader-dev 3.7.1
+  * Bump watch file version to 4
+  * Rename tag for lintian override
+  * Delete debian/source/include-binaries
+  * Update debian/copyright
+
+ -- apt-ghetto <apt-ghetto@protonmail.com>  Wed, 18 Aug 2021 14:59:33 +0200
+
 screengrab (2.1.0-1ubuntu1) hirsute; urgency=medium
 
   * Merge from Debian unstable. Remaining changes:

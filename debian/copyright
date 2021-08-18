@@ -6,9 +6,21 @@ Files: *
 Copyright: 2009-2015  Artem Galichkin <doomer3d@gmail.com>
 License:   GPL-2.0+
 
+Files: cmake/FindX11_XCB.cmake
+       cmake/FindXCB.cmake
+       cmake/LXQtTranslateTs.cmake
+       cmake/Qt5TranslationLoader.cmake
+Copyright: 2011, Fredrik Höglund <fredrik@kde.org>
+           2008, Helio Chissini de Castro <helio@kde.org>
+           2007, Matthias Kretz <kretz@kde.org>
+           2013, Martin Gräßlin <mgraesslin@kde.org>
+           2014, Luís Pereira <luis.artur.pereira@gmail.com>
+License: BSD-3-Clause
+
 Files: debian/*
-Copyright: 2012-2020 Alf Gaida <agaida@siduction.org>
-           2010-2013 Artem Galichkin <doomer3d@gmail.com>
+Copyright: 2021,      Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+           2012-2020, Alf Gaida <agaida@siduction.org>
+           2010-2013, Artem Galichkin <doomer3d@gmail.com>
 License: GPL-2.0+
 
 Files: src/common/qkeysequencewidget/*
