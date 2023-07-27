@@ -1,6 +1,5 @@
 Source: screengrab
-Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
 Uploaders: Alf Gaida <agaida@siduction.org>,
            ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>
@@ -10,23 +9,23 @@ Build-Depends: debhelper-compat (= 13),
                libkf5windowsystem-dev,
                libqt5svg5-dev,
                libqt5x11extras5-dev,
-               libqt5xdg-dev (>= 3.7.1),
-               libqt5xdgiconloader-dev (>= 3.7.1),
+               libqt5xdg-dev (>= 3.10.0~),
+               libqt5xdgiconloader-dev (>= 3.10.0~) ,
                libx11-dev,
                libx11-xcb-dev,
-               libxcb-xfixes0-dev [!kfreebsd-any],
                libxcb1-dev,
+               libxcb-xfixes0-dev [!kfreebsd-any],
                lxqt-build-tools
-Standards-Version: 4.5.1
-Vcs-Browser: https://phab.lubuntu.me/source/screengrab/
-Vcs-Git: https://phab.lubuntu.me/source/screengrab.git
-XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/screengrab
-XS-Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/screengrab.git
+Standards-Version: 4.6.2
+Vcs-Browser: https://salsa.debian.org/lxqt-team/screengrab
+Vcs-Git: https://salsa.debian.org/lxqt-team/screengrab.git
 Homepage: https://github.com/lxqt/screengrab
+Rules-Requires-Root: no
 
 Package: screengrab
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
 Description: Crossplatform tool for getting screenshots
  Screengrab working in Linux and Windows. The program uses Qt and is
  independent of any desktop environment.

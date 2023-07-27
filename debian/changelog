@@ -1,44 +1,50 @@
-screengrab (2.2.0-0ubuntu1) impish; urgency=medium
+screengrab (2.5.0-1) unstable; urgency=medium
 
-  * New upstream release 2.2.0
-  * Update debian/control
-    - Use libqt5xdg-dev 3.7.1
-    - Use libqt5xdgiconloader-dev 3.7.1
-  * Bump watch file version to 4
-  * Rename tag for lintian override
-  * Delete debian/source/include-binaries
-  * Update debian/copyright
+  * New upstream release.
 
- -- apt-ghetto <apt-ghetto@protonmail.com>  Wed, 18 Aug 2021 14:59:33 +0200
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 05 Jan 2023 12:15:05 +0800
 
-screengrab (2.1.0-1ubuntu1) hirsute; urgency=medium
+screengrab (2.4.0-3) unstable; urgency=medium
 
-  * Merge from Debian unstable. Remaining changes:
-    - Bump debhelper-compat (=13).
-    - Update Standards-version to 4.5.1, no changes needed.
+  * Update d/watch for GitHub.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 21 Feb 2021 20:04:40 -0500
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 05 Jan 2023 00:21:40 +0800
+
+screengrab (2.4.0-2) unstable; urgency=medium
+
+  * Merge to unstable.
+  * Bump Standards-Version to 4.6.2:
+    * Add Rules-Requires-Root: no in d/control.
+  * Bump compat to 13:
+    * Remove unnecessary -Wl,--as-needed in d/rules.
+  * Add d/upstream/metadata.
+  * Update d/copyright.
+  * Fix d/lintian-overrides.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 05 Jan 2023 00:08:37 +0800
+
+screengrab (2.4.0-1) experimental; urgency=medium
+
+  * Team Upload
+
+  [ Andrew Lee (李健秋) ]
+  * Add debian/salsa-ci.yml file.
+  * Update debian/upstream/signing-key.asc.
+  * New upstream version 2.3.0
+
+  [ suman rajan ]
+  * New upstream version 2.4.0
+  * debian/copyright: Added cc-by-4.0 license
+  * debian/control: bumped depends version for libqt5xdg-dev
+  * salsa-ci.yml: Added release experimental
+
+ -- suman rajan <suman@protonmail.com>  Thu, 14 Jul 2022 00:21:31 +0530
 
 screengrab (2.1.0-1) unstable; urgency=medium
 
   * New upstream release.
 
  -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2021 17:21:24 +0800
-
-screengrab (2.0.1-0ubuntu1) groovy; urgency=medium
-
-  [ apt-ghetto ]
-  * Removed patches, because they are applied upstream.
-  * Updated rules and control.
-
-  [ Simon Quigley ]
-  * New upstream release.
-    - Update upstream signing key.
-    - Update LXQt build depends.
-  * Update Standards-version to 4.5.0, no changes needed.
-  * Run wrap-and-sort.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 04 Jun 2020 14:42:04 -0500
 
 screengrab (2.0.0-1) unstable; urgency=medium
 
