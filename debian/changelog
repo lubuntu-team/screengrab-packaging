@@ -1,3 +1,9 @@
+screengrab (2.7.0-0ubuntu1~ppa1) jammy; urgency=medium
+
+  * Backport to Jammy.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 12 Nov 2023 17:33:37 -0600
+
 screengrab (2.7.0-0ubuntu1) noble; urgency=medium
 
   * New upstream release.
