@@ -1,7 +1,8 @@
 screengrab (2.7.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
-  * Bump/clean up build dependencies, and run the wrap-and-sort hammer on d/control.
+  * Bump/clean up build dependencies, and run the wrap-and-sort hammer on
+    d/control.
   * Lubuntuify.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 12 Nov 2023 17:28:13 -0600
