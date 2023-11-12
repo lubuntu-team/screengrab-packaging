@@ -1,19 +1,15 @@
 Source: screengrab
-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
 Uploaders: Alf Gaida <agaida@siduction.org>,
            ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>
 Section: graphics
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
-               libkf5windowsystem-dev,
-               libqt5svg5-dev,
-               libqt5x11extras5-dev,
-               libqt5xdg-dev (>= 3.10.0~),
-               libqt5xdgiconloader-dev (>= 3.10.0~) ,
-               libx11-dev,
+               libkf5windowsystem-dev (>=5.36.0~),
+               libqt5x11extras5-dev (>=5.15.0~),
+               libqt5xdg-dev (>= 3.11.0~),
                libx11-xcb-dev,
-               libxcb1-dev,
                libxcb-xfixes0-dev [!kfreebsd-any],
                lxqt-build-tools
 Standards-Version: 4.6.2
