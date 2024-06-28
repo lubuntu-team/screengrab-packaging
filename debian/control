@@ -13,7 +13,7 @@ Build-Depends: debhelper-compat (= 13),
                libx11-xcb-dev,
                libxcb-xfixes0-dev [!kfreebsd-any],
                lxqt-build-tools
-Standards-Version: 4.6.2
+Standards-Version: 4.7.0
 Vcs-Browser: https://salsa.debian.org/lxqt-team/screengrab
 Vcs-Git: https://salsa.debian.org/lxqt-team/screengrab.git
 Homepage: https://github.com/lxqt/screengrab
