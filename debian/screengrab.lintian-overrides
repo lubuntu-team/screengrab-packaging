@@ -1,0 +1,4 @@
+# This is expected
+screengrab: desktop-entry-lacks-keywords-entry [usr/share/applications/*.desktop]
+screengrab: appstream-metadata-validation-failed *
+screengrab: no-manual-page [usr/bin/*]
