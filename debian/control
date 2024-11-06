@@ -7,11 +7,11 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
 Section: graphics
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
-               libkf6windowsystem-dev,
-               libqt6xdg-dev (>= 4.0.0),
+               libkf6windowsystem-dev (>= 6.0.0),
+               libqt6xdg-dev (>= 4.1.0),
                libx11-xcb-dev,
                libxcb-xfixes0-dev [!kfreebsd-any],
-               lxqt-build-tools (>= 2.0.0)
+               lxqt-build-tools (>= 2.1.0)
 Standards-Version: 4.7.0
 Vcs-Browser: https://salsa.debian.org/lxqt-team/screengrab
 Vcs-Git: https://salsa.debian.org/lxqt-team/screengrab.git
