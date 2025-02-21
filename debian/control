@@ -12,7 +12,7 @@ Build-Depends: debhelper-compat (= 13),
                libx11-xcb-dev,
                libxcb-xfixes0-dev [!kfreebsd-any],
                lxqt-build-tools (>= 2.1.0)
-Standards-Version: 4.7.0
+Standards-Version: 4.7.1
 Vcs-Browser: https://salsa.debian.org/lxqt-team/screengrab
 Vcs-Git: https://salsa.debian.org/lxqt-team/screengrab.git
 Homepage: https://github.com/lxqt/screengrab
@@ -20,7 +20,7 @@ Rules-Requires-Root: no
 
 Package: screengrab
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, doc-base
+Depends: doc-base, ${misc:Depends}, ${shlibs:Depends}
 Description: Crossplatform tool for getting screenshots
  Screengrab working in Linux and Windows. The program uses Qt and is
  independent of any desktop environment.
