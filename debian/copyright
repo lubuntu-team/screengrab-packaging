@@ -4,7 +4,7 @@ Source: https://github.com/lxqt/screengrab
 
 Files: *
 Copyright: 2009-2015  Artem Galichkin <doomer3d@gmail.com>
-           2014-2024, LXQt Project
+           2014-2025, LXQt Project
 License:   GPL-2.0+
 
 Files: src/core/wayland/ScreenCopy.*
@@ -31,9 +31,9 @@ Copyright: 2010-2013 Artem Galichkin <doomer3d@gmail.com>
            2012-2020 Alf Gaida <agaida@siduction.org>
            2022 suman rajan <suman@protonmail.com>
            2023 Andrew Lee (李健秋) <ajqlee@debian.org>
-           2024 Aaron Rainbolt <arraybolt3@ubuntu.com>
            2025 Simon Quigley <tsimonq2@ubuntu.com>
            2015-2025 ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+           2024-2026 Aaron Rainbolt <arraybolt3@ubuntu.com>
 License: GPL-2.0+
 
 License: GPL-2.0+
