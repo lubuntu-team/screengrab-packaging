@@ -7,6 +7,7 @@ screengrab (3.1.0-0ubuntu1) resolute; urgency=medium
   * Update copyright file.
   * Update Standards-Version to 4.7.3, no changes needed.
   * Remove unnecessary Rules-Requires-Root.
+  * Removed kfreebsd-any reference from control file to make Lintian happy.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 20 Feb 2026 11:10:52 -0500
 
