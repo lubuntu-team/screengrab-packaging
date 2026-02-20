@@ -24,7 +24,7 @@ Homepage: https://github.com/lxqt/screengrab
 
 Package: screengrab
 Architecture: any
-Depends: doc-base, ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Crossplatform tool for getting screenshots
  Screengrab working in Linux and Windows. The program uses Qt and is
  independent of any desktop environment.
