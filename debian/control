@@ -21,7 +21,6 @@ Standards-Version: 4.7.3
 Vcs-Browser: https://salsa.debian.org/lxqt-team/screengrab
 Vcs-Git: https://salsa.debian.org/lxqt-team/screengrab.git
 Homepage: https://github.com/lxqt/screengrab
-Rules-Requires-Root: no
 
 Package: screengrab
 Architecture: any
