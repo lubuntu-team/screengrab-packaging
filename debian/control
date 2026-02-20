@@ -8,10 +8,10 @@ Section: graphics
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
                libkf6windowsystem-dev (>= 6.0.0),
-               libqt6xdg-dev (>= 4.2.0),
+               libqt6xdg-dev (>= 4.3.0),
                libx11-xcb-dev,
                libxcb-xfixes0-dev [!kfreebsd-any],
-               lxqt-build-tools (>= 2.2.0),
+               lxqt-build-tools (>= 2.3.0),
                layer-shell-qt (>= 6.0.0),
                liblayershellqtinterface-dev (>= 6.0.0),
                qt6-wayland-dev (>= 6.6.0),
