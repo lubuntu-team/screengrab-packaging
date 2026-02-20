@@ -17,7 +17,7 @@ Build-Depends: debhelper-compat (= 13),
                qt6-wayland-dev (>= 6.6.0),
                qt6-base-private-dev (>= 6.6.0),
                qt6-wayland-private-dev (>= 6.6.0)
-Standards-Version: 4.7.2
+Standards-Version: 4.7.3
 Vcs-Browser: https://salsa.debian.org/lxqt-team/screengrab
 Vcs-Git: https://salsa.debian.org/lxqt-team/screengrab.git
 Homepage: https://github.com/lxqt/screengrab
