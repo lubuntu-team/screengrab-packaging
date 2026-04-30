@@ -1,3 +1,9 @@
+screengrab (3.2.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@debian.org>  Thu, 30 Apr 2026 14:45:39 -0500
+
 screengrab (3.0.0-0ubuntu1) questing; urgency=medium
 
   * New upstream release.
