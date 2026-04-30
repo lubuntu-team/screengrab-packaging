@@ -5,6 +5,7 @@ screengrab (3.2.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update the upstream signing key.
   * Update Standards-Version to 4.7.4, dropping Priority: optional.
   * Update the copyright file.
+  * Drop Rules-Requires-Root field, it is now redundant.
 
  -- Simon Quigley <tsimonq2@debian.org>  Thu, 30 Apr 2026 14:45:39 -0500
 
