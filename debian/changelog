@@ -1,4 +1,4 @@
-screengrab (3.2.0-0ubuntu1) UNRELEASED; urgency=medium
+screengrab (3.2.0-0ubuntu1) stonking; urgency=medium
 
   * New upstream release.
     - Update build dependencies.
@@ -7,7 +7,7 @@ screengrab (3.2.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update the copyright file.
   * Drop Rules-Requires-Root field, it is now redundant.
 
- -- Simon Quigley <tsimonq2@debian.org>  Thu, 30 Apr 2026 14:45:39 -0500
+ -- Simon Quigley <tsimonq2@debian.org>  Thu, 30 Apr 2026 16:10:08 -0500
 
 screengrab (3.0.0-0ubuntu1) questing; urgency=medium
 
