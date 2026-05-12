@@ -4,7 +4,7 @@ Source: https://github.com/lxqt/screengrab
 
 Files: *
 Copyright: 2009-2015  Artem Galichkin <doomer3d@gmail.com>
-           2014-2025, LXQt Project
+           2014-2026, LXQt Project
 License:   GPL-2.0+
 
 Files: src/core/wayland/ScreenCopy.*
